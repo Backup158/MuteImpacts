@@ -9,13 +9,22 @@ mod:info("v"..mod.version.." loaded uwu nya :3")
 -- ################################
 -- Local References for Performance
 -- ################################
-
+local pairs = pairs
 
 -- ###################################################################
 -- MOD LOGIC
 -- ###################################################################
-local audio_plugin = get_mod("Audio")
-audio_plugin.silence_sounds({
-    "wwise/events/weapon/play_explosion_force_sml",
-    "wwise/events/weapon/play_hit_indicator_melee_slashing_super_armor_no_damage",
-})
+mod.on_all_mods_loaded = function()
+    local audio_plugin = get_mod("Audio")
+    if not audio_plugin then
+        mod:error(mod:localize("missing_audio_plugin_error"))
+        return
+    end
+
+    local sounds_to_toggle = mod.sounds_to_toggle
+    for setting_name, sound_event in pairs(sounds_to_toggle) do 
+        if mod:get(setting_name) then
+            audio_plugin.silence_sounds(sound_event)
+        end
+    end
+end
