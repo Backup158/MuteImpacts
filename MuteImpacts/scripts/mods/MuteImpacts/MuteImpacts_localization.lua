@@ -1,8 +1,5 @@
 local mod = get_mod("MuteImpacts")
 
-mod:io_dofile("MuteImpacts/scripts/mods/MuteImpacts/SoundsToMute")
-local sounds_to_toggle = mod.sounds_to_toggle
-
 local localizations = {
 	mod_name = {
 		en = "Mute Impacts",
@@ -12,6 +9,13 @@ local localizations = {
 	},
 	missing_audio_plugin_error = {
 		en = "Audio Plugin not detected!",
+	},
+	
+	forcestaff_primary_fire = {
+		en = "Force Staff Primary Fire",
+	},
+	super_armor_no_damage_melee_slashing = {
+		en = "Carapace: No Damage (Melee Slashing)",
 	},
 }
 

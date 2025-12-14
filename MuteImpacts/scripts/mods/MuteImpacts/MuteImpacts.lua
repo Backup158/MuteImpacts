@@ -13,7 +13,6 @@ local audio_plugin
 -- ################################
 local pairs = pairs
 
-mod:io_dofile("MuteImpacts/scripts/mods/MuteImpacts/SoundsToMute")
 local sounds_to_toggle = mod.sounds_to_toggle
 
 -- ###################################################################

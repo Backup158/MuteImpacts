@@ -4,7 +4,10 @@ local pairs = pairs
 local table = table
 local table_insert = table.insert
 
-mod:io_dofile("MuteImpacts/scripts/mods/MuteImpacts/SoundsToMute")
+mod.sounds_to_toggle = {
+	forcestaff_primary_fire = "wwise/events/weapon/play_explosion_force_sml",
+	super_armor_no_damage_melee_slashing = "wwise/events/weapon/play_hit_indicator_melee_slashing_super_armor_no_damage",
+}
 local sounds_to_toggle = mod.sounds_to_toggle
 
 local final_widgets = {}
