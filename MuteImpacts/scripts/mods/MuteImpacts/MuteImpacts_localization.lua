@@ -41,7 +41,7 @@ local localizations = {
 		en = "Force Staff Primary Fire",
 	},
 }
-for armor_type, armor_type_localization in pairs(localizations_to_reuse.armor_types) do
+for armor_type, armor_type_localization in pairs(localizations_to_reuse.armor_type) do
 	for damage_done, damage_done_localization in pairs(localizations_to_reuse.damage_done) do
 		for damage_type, damage_type_localization in pairs(localizations_to_reuse.damage_type) do
 			localizations[armor_type.."_"..damage_done.."_"..damage_type] = {
