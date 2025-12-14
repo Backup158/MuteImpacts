@@ -8,5 +8,6 @@ return {
 			mod_localization = "MuteImpacts/scripts/mods/MuteImpacts/MuteImpacts_localization",
 		})
 	end,
+	version = "1.0.0",
 	packages = {},
 }
