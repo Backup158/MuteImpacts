@@ -23,6 +23,9 @@ local localizations_to_reuse = {
 		melee_slashing = {
 			en = "Melee Slashing",
 		},
+		melee = {
+			en = "Melee",
+		},
 	},
 }
 
