@@ -10,6 +10,6 @@ mod.sounds_to_toggle = {
     melee_hits_blunt_armor = "wwise/events/weapon/play_melee_hits_blunt_armor",
     melee_hits_sword_armor = "wwise/events/weapon/play_melee_hits_sword_armor",
     melee_hits_knife_armor = "wwise/events/weapon/play_melee_hits_knife_armor",
-    bullet_hits_gen_damage_negated = "wwise/events/weapon/play_bullet_hits_gen_damage_negated",
-    bullet_hits_laser_damage_negated = "wwise/events/weapon/play_bullet_hits_laser_damage_negated",
+    ranged_hits_gen_no_damage = "wwise/events/weapon/play_bullet_hits_gen_damage_negated",
+    ranged_hits_laser_no_damage = "wwise/events/weapon/play_bullet_hits_laser_damage_negated",
 }
