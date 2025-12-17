@@ -1,3 +1,8 @@
+# v1.0.3
+2025-12-16
+
+- Fixed missing localizations from incorrect key names
+
 # v1.0.2
 2025-12-16
 
