@@ -8,6 +8,13 @@ return {
 			mod_localization = "MuteImpacts/scripts/mods/MuteImpacts/MuteImpacts_localization",
 		})
 	end,
-	version = "1.0.1",
+	require = {
+		"DarktideLocalServer",
+		"Audio",
+	},
+	load_after = {
+		"Audio",
+	},
+	version = "1.0.2",
 	packages = {},
 }
