@@ -50,6 +50,11 @@ local localizations_to_reuse = {
 		armor = {
 			en = "Armored Hit",
 		},
+		armored = localizations_to_reuse.damage_done.armor,
+		unarmor = {
+			en = "Unarmored Hit",
+		},
+		unarmored = localizations_to_reuse.damage_done.unarmor,
 		armor_break = {
 			en = "Armor Broken",
 		},
