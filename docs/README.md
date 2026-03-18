@@ -12,6 +12,12 @@ Uses the Audio plugin to mute the listed sounds. All sounds are silenced by defa
     - Damage negated
     - Armored
     - Unarmored
+- UI Sounds
+    - Entering NPC menu
+    - Hadron trait edits
+    - Hadron blessing edits
+    - Hadron Consecration
+    - Hadron Empowerment
 
 # Load Order
 **DarktideLocalServer**
