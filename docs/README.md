@@ -1,4 +1,4 @@
-Remove sounds from Psyker Primary Fire explosions and the plinking from doing no or reduced Damage against Carapace or Flak Armor. 
+Remove sounds such as Psyker Primary Fire explosions and the plinking from doing no or reduced Damage against Carapace/Flak Armor. 
 Uses the Audio plugin to mute the listed sounds. All sounds are silenced by default, and can be unsilenced in the Mod Options.
 
 # Sound Options
@@ -12,7 +12,7 @@ Uses the Audio plugin to mute the listed sounds. All sounds are silenced by defa
     - Damage negated
     - Armored
     - Unarmored
-    
+
 # Load Order
 **DarktideLocalServer**
 
