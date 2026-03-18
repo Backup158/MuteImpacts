@@ -6,7 +6,7 @@ local mod = get_mod("MuteImpacts")
 mod.version = "1.0.3"
 mod:info("v"..mod.version.." loaded uwu nya :3")
 
-local audio_plugin
+local audio_plugin = get_mod("Audio")
 
 -- ################################
 -- Local References for Performance
@@ -44,7 +44,6 @@ end
 -- Execution: Muting on Startup and Setting Change
 -- ##################################
 mod.on_all_mods_loaded = function()
-    audio_plugin = get_mod("Audio")
     if not audio_plugin then
         mod:error(mod:localize("missing_audio_plugin_error"))
         return
