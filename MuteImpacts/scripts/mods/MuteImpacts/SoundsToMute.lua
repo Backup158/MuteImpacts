@@ -43,32 +43,13 @@ mod.sounds_to_toggle = {
     ranged_hits_no_damage_laser = "wwise/events/weapon/play_bullet_hits_laser_damage_negated",
     -- -------------
     -- Armored
+    -- Regex match for armored, armored_reduced, etc
     -- -------------
-    ranged_hits_armored_gen = {
-        "wwise/events/weapon/play_bullet_hits_gen_armored",
-        "wwise/events/weapon/play_bullet_hits_gen_armored_husk",
-        "wwise/events/weapon/play_bullet_hits_gen_armored_large",
-        "wwise/events/weapon/play_bullet_hits_gen_armored_reduced",
-        "wwise/events/weapon/play_bullet_hits_gen_armored_death",
-    },
-    ranged_hits_armored_laser = {
-        "wwise/events/weapon/play_bullet_hits_laser_armored",
-        "wwise/events/weapon/play_bullet_hits_laser_armored_husk",
-        "wwise/events/weapon/play_bullet_hits_laser_armored_reduced",
-    },
+    ranged_hits_armored_gen = "wwise/events/weapon/play_bullet_hits_gen_armored.*",
+    ranged_hits_armored_laser = "wwise/events/weapon/play_bullet_hits_laser_armored.*",
     -- -------------
     -- Unarmored
     -- -------------
-    ranged_hits_unarmored_gen = {
-        "wwise/events/weapon/play_bullet_hits_gen_unarmored",
-        "wwise/events/weapon/play_bullet_hits_gen_unarmored_husk",
-        "wwise/events/weapon/play_bullet_hits_gen_unarmored_large",
-        "wwise/events/weapon/play_bullet_hits_gen_unarmored_reduced",
-        "wwise/events/weapon/play_bullet_hits_gen_unarmored_death",
-    },
-    ranged_hits_unarmored_laser = {
-        "wwise/events/weapon/play_bullet_hits_laser_unarmored",
-        "wwise/events/weapon/play_bullet_hits_laser_unarmored_husk",
-        "wwise/events/weapon/play_bullet_hits_laser_unarmored_reduced",
-    },
+    ranged_hits_unarmored_gen = "wwise/events/weapon/play_bullet_hits_gen_unarmored_death.*",
+    ranged_hits_unarmored_laser = "wwise/events/weapon/play_bullet_hits_laser_unarmored.*",
 }
