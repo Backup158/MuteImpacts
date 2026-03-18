@@ -42,6 +42,21 @@ mod.sounds_to_toggle = {
     ranged_hits_no_damage_gen = "wwise/events/weapon/play_bullet_hits_gen_damage_negated",
     ranged_hits_no_damage_laser = "wwise/events/weapon/play_bullet_hits_laser_damage_negated",
     -- -------------
+    -- Armored
+    -- -------------
+    ranged_hits_armored_gen = {
+        "wwise/events/weapon/play_bullet_hits_gen_armored",
+        "wwise/events/weapon/play_bullet_hits_gen_armored_husk",
+        "wwise/events/weapon/play_bullet_hits_gen_armored_large",
+        "wwise/events/weapon/play_bullet_hits_gen_armored_reduced",
+        "wwise/events/weapon/play_bullet_hits_gen_armored_death",
+    },
+    ranged_hits_armored_laser = {
+        "wwise/events/weapon/play_bullet_hits_laser_armored",
+        "wwise/events/weapon/play_bullet_hits_laser_armored_husk",
+        "wwise/events/weapon/play_bullet_hits_laser_armored_reduced",
+    },
+    -- -------------
     -- Unarmored
     -- -------------
     ranged_hits_unarmored_gen = {
