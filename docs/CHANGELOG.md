@@ -10,7 +10,11 @@
         - `play_weapon_lasgun_crack_beam_nearby`
         - `play_weapon_lasgun_crack_beam_imperial_guards`
         - `play_weapon_lasgun_crack_beam_nearby_husk`
-- Added localization for these axe types
+    - Ranged Hits
+        - Armored: `play_bullet_hits_gen_armored` and `play_bullet_hits_laser_armored`, plus the ones that end in things such as `_reduced` and `_death` 
+        - Unarmoed: ditto but unarmored
+- Added localization for these sound types
+- Reorganized code to be visually separated
 
 # v1.0.3
 2025-12-16
