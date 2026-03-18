@@ -8,6 +8,32 @@ local pairs = pairs
 -- ################################
 -- Localization
 -- ################################
+-- ################
+-- Manual Localization
+-- For Mod Info and Exceptions
+-- ################
+local localizations = {
+	mod_name = {
+		en = "Silence Obnoxious Sounds (SOS)",
+	},
+	mod_description = {
+		-- en = "pipe down skittle squad",
+		en = "Mute impact SFX and such",
+	},
+	missing_audio_plugin_error = {
+		en = "Audio Plugin not detected!",
+	},
+	-- -------------------------
+	-- Exceptions
+	-- -------------------------
+	forcestaff_primary_fire = {
+		en = "Force Staff Primary Fire",
+	},
+}
+
+-- ################
+-- Automatic Localization for Options
+-- ################
 local localizations_to_reuse = {
 	armor_type = {
 		super_armor = {
@@ -77,22 +103,6 @@ local localizations_to_reuse = {
 		laser = {
 			en = "Laser",
 		},
-	},
-}
-
-local localizations = {
-	mod_name = {
-		en = "Mute Impacts",
-	},
-	mod_description = {
-		en = "pipe down skittle squad",
-	},
-	missing_audio_plugin_error = {
-		en = "Audio Plugin not detected!",
-	},
-	
-	forcestaff_primary_fire = {
-		en = "Force Staff Primary Fire",
 	},
 }
 
