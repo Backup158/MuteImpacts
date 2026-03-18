@@ -1,12 +1,10 @@
 # v1.1.0
 2026-03-+++
 
-- Added separate axe melee impacts
-    - `melee_hits_axe_res`
-    - `melee_hits_axe_light`
-    - `melee_hits_axe_heavy`
-    - `melee_hits_axe_armor`
-    - `melee_hits_axe_armor_break`
+- Added more axe melee impacts
+    - `play_melee_hits_axe_res`
+    - `play_melee_hits_axe_light`
+    - `play_melee_hits_axe_heavy`
 - Added localization for these axe types
 
 # v1.0.3

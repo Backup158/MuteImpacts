@@ -121,11 +121,6 @@ for damage_done, damage_done_localization in pairs(localizations_to_reuse.damage
 			en = localizations_to_reuse.melee_hits["en"]..": "..damage_done_localization["en"].." ("..weapon_type_localization["en"]..")"
 		}
 	end
-	-- There's an axe specific one
-	localizations["melee_hits_axe_"..damage_done] = {
-		-- melee_hits_blunt_no_damage = "Melee Hit: Axe (Damage Reduced)"
-		en = localizations_to_reuse.melee_hits["en"]..": "..localizations_to_reuse.axe["en"].." ("..damage_done_localization["en"]..")"
-	}
 	-- -------------------------
 	-- Ranged hits against armor
 	-- -------------------------
