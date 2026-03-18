@@ -41,4 +41,9 @@ mod.sounds_to_toggle = {
     -- -------------
     ranged_hits_no_damage_gen = "wwise/events/weapon/play_bullet_hits_gen_damage_negated",
     ranged_hits_no_damage_laser = "wwise/events/weapon/play_bullet_hits_laser_damage_negated",
+    -- -------------
+    -- Unarmored
+    -- -------------
+    ranged_hits_unarmored_gen = "wwise/events/weapon/play_bullet_hits_gen_unarmored",
+    ranged_hits_unarmored_laser = "wwise/events/weapon/play_bullet_hits_laser_unarmored",
 }
