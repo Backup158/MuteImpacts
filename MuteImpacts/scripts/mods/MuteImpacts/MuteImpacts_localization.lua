@@ -72,7 +72,7 @@ local localizations_to_reuse = {
 	},
 	ranged_weapon_types = {
 		gen = {
-			en = "Generic",
+			en = "General",
 		},
 		laser = {
 			en = "Laser",
