@@ -13,6 +13,7 @@
     - Ranged Hits
         - Armored: `play_bullet_hits_gen_armored` and `play_bullet_hits_laser_armored`, plus the ones that end in things such as `_reduced` and `_death` 
         - Unarmoed: ditto but unarmored
+    - Penance Reward claiming
 - Added localization for these sound types
 - Reorganized code to be visually separated
 

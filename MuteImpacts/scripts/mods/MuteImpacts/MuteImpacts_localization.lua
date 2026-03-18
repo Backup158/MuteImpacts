@@ -38,6 +38,9 @@ local localizations = {
 	lasbeam_crack_enemy = {
 		en = "Lasbeam Crack (Other Scab Enemies)",
 	},
+	penance_reward_claim = {
+		en = "Claiming Penance Rewards",
+	},
 }
 
 -- ################

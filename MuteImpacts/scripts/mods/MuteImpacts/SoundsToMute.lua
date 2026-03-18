@@ -17,6 +17,10 @@ mod.sounds_to_toggle = {
     lasbeam_crack_enemy_captain = "wwise/events/weapon/play_weapon_lasgun_crack_beam_imperial_guards",
     lasbeam_crack_enemy = "wwise/events/weapon/play_weapon_lasgun_crack_beam_nearby_husk",
 	-- --------------------------
+    -- Penance Reward Claim
+	-- --------------------------
+    penance_reward_claim = "wwise/events/ui/play_ui_penances.*claim",
+	-- --------------------------
     -- Melee hits
 	-- --------------------------
     -- -------------
