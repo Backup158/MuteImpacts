@@ -1,10 +1,15 @@
 # v1.1.0
 2026-03-+++
 
-- Added more axe melee impacts
-    - `play_melee_hits_axe_res`
-    - `play_melee_hits_axe_light`
-    - `play_melee_hits_axe_heavy`
+- Added more sounds
+    - Axe melee impacts
+        - `play_melee_hits_axe_res`
+        - `play_melee_hits_axe_light`
+        - `play_melee_hits_axe_heavy`
+    - Lasbeam Cracks
+        - `play_weapon_lasgun_crack_beam_nearby`
+        - `play_weapon_lasgun_crack_beam_imperial_guards`
+        - `play_weapon_lasgun_crack_beam_nearby_husk`
 - Added localization for these axe types
 
 # v1.0.3
