@@ -45,7 +45,7 @@ local localizations = {
 		en = "Unique NPC Menu Entry SFX",
 	},
 	crafting_interact_forge_button = {
-		en = "Shrine of the Omnissiah: Generic Interaction",
+		en = "Shrine of the Omnissiah: Button Press",
 	},
 	crafting_interact_traits = {
 		en = "Shrine of the Omnissiah: Blessings",

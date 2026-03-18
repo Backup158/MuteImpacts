@@ -21,7 +21,7 @@ mod.sounds_to_toggle = {
 	-- --------------------------
     penance_reward_claim = "wwise/events/ui/play_ui_penances.*claim",
     npc_menu_enter = "wwise/events/ui/play_ui_npc.*enter",
-    crafting_interact_forge_button = "wwise/events/ui/play_ui_npc_interacts_forge_button_fx",
+    --crafting_interact_forge_button = "wwise/events/ui/play_ui_npc_interacts_forge_button_fx",
     crafting_interact_traits = "wwise/events/ui/play_ui_npc_interacts_forge_.*_trait.*",
     crafting_interact_perk_reroll = "wwise/events/ui/play_ui_npc_interacts_forge_reroll_perk",
     crafting_interact_upgrade = "wwise/events/ui/play_ui_npc_interacts_forge_upgrade_item",
