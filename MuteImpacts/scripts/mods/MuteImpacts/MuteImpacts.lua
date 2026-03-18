@@ -20,6 +20,9 @@ local sounds_to_toggle = mod.sounds_to_toggle
 -- ####################################################################
 -- MOD LOGIC
 -- ####################################################################
+-- ##################################
+-- Helper Functions
+-- ##################################
 -- -------------
 -- Changing sounds
 -- -------------
@@ -37,9 +40,9 @@ local function toggle_sound(audio_plugin, sound_event, bool_silence_this)
     end
 end
 
--- -------------
--- Muting on Startup and Setting Change
--- -------------
+-- ##################################
+-- Execution: Muting on Startup and Setting Change
+-- ##################################
 mod.on_all_mods_loaded = function()
     audio_plugin = get_mod("Audio")
     if not audio_plugin then
