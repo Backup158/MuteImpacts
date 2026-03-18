@@ -12,6 +12,7 @@ local audio_plugin
 -- Local References for Performance
 -- ################################
 local pairs = pairs
+local type = type
 
 mod:io_dofile("MuteImpacts/scripts/mods/MuteImpacts/SoundsToMute")
 local sounds_to_toggle = mod.sounds_to_toggle
@@ -19,6 +20,26 @@ local sounds_to_toggle = mod.sounds_to_toggle
 -- ###################################################################
 -- MOD LOGIC
 -- ###################################################################
+-- -------------
+-- Changing sounds
+-- -------------
+local function toggle_sound(audio_plugin, sound_event, bool_silence_this) 
+    if type(sound_event) == "table" then
+        for _, inner_sound in pairs(sound_event) do
+            toggle_sound(audio_plugin, inner_sound, bool_silence_this)
+        end
+    else
+        if bool_silence_this then
+            audio_plugin.silence_sounds(sound_event)
+        else
+            audio_plugin.unsilence_sounds(sound_event)
+        end
+    end
+end
+
+-- -------------
+-- Muting on Startup and Setting Change
+-- -------------
 mod.on_all_mods_loaded = function()
     audio_plugin = get_mod("Audio")
     if not audio_plugin then
