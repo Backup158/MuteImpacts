@@ -3,7 +3,7 @@ local mod = get_mod("MuteImpacts")
 -- These are found manually
 -- There are too many exceptions when I tried using logical loops
 -- Instead, I reserved that for localization
-local sounds_to_toggle = {
+mod.sounds_to_toggle = {
 	forcestaff_primary_fire = "wwise/events/weapon/play_explosion_force_sml",
     -- Melee hits against armor
 	super_armor_no_damage_melee_slashing = "wwise/events/weapon/play_hit_indicator_melee_slashing_super_armor_no_damage",
@@ -24,5 +24,3 @@ local sounds_to_toggle = {
     ranged_hits_no_damage_gen = "wwise/events/weapon/play_bullet_hits_gen_damage_negated",
     ranged_hits_no_damage_laser = "wwise/events/weapon/play_bullet_hits_laser_damage_negated",
 }
-
-mod.sounds_to_toggle = sounds_to_toggle
