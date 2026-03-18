@@ -41,6 +41,24 @@ local localizations = {
 	penance_reward_claim = {
 		en = "Claiming Penance Rewards",
 	},
+	npc_menu_enter = {
+		en = "Unique NPC Menu Entry SFX",
+	},
+	crafting_interact_forge_button = {
+		en = "Shrine of the Omnissiah: Generic Interaction",
+	},
+	crafting_interact_traits = {
+		en = "Shrine of the Omnissiah: Blessings",
+	},
+	crafting_interact_perk_reroll = {
+		en = "Shrine of the Omnissiah: Perk Reroll",
+	},
+	crafting_interact_upgrade = {
+		en = "Shrine of the Omnissiah: Upgrade Item",
+	},
+	crafting_interact_empower = {
+		en = "Shrine of the Omnissiah: Empower Item",
+	},
 }
 
 -- ################
