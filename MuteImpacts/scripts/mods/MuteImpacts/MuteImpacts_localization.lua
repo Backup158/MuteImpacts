@@ -50,11 +50,9 @@ local localizations_to_reuse = {
 		armor = {
 			en = "Armored Hit",
 		},
-		armored = localizations_to_reuse.damage_done.armor,
 		unarmor = {
 			en = "Unarmored Hit",
 		},
-		unarmored = localizations_to_reuse.damage_done.unarmor,
 		armor_break = {
 			en = "Armor Broken",
 		},
@@ -110,6 +108,8 @@ local localizations_to_reuse = {
 		},
 	},
 }
+localizations_to_reuse.damage_done.armored = localizations_to_reuse.damage_done.armor
+localizations_to_reuse.damage_done.unarmored = localizations_to_reuse.damage_done.unarmor
 
 -- Automatic localization formatting
 -- 	since these have certain patterns, I'm doing it like this instead of pasting it over and over again
