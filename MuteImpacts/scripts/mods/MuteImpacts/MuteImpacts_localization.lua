@@ -54,7 +54,7 @@ local localizations = {
 		en = "Shrine of the Omnissiah: Perk Reroll",
 	},
 	crafting_interact_upgrade = {
-		en = "Shrine of the Omnissiah: Upgrade Item",
+		en = "Shrine of the Omnissiah: Consecrate Item",
 	},
 	crafting_interact_empower = {
 		en = "Shrine of the Omnissiah: Empower Item",
