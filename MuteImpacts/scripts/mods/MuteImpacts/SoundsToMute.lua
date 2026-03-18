@@ -44,6 +44,16 @@ mod.sounds_to_toggle = {
     -- -------------
     -- Unarmored
     -- -------------
-    ranged_hits_unarmored_gen = "wwise/events/weapon/play_bullet_hits_gen_unarmored",
-    ranged_hits_unarmored_laser = "wwise/events/weapon/play_bullet_hits_laser_unarmored",
+    ranged_hits_unarmored_gen = {
+        "wwise/events/weapon/play_bullet_hits_gen_unarmored",
+        "wwise/events/weapon/play_bullet_hits_gen_unarmored_husk",
+        "wwise/events/weapon/play_bullet_hits_gen_unarmored_large",
+        "wwise/events/weapon/play_bullet_hits_gen_unarmored_reduced",
+        "wwise/events/weapon/play_bullet_hits_gen_unarmored_death",
+    },
+    ranged_hits_unarmored_laser = {
+        "wwise/events/weapon/play_bullet_hits_laser_unarmored",
+        "wwise/events/weapon/play_bullet_hits_laser_unarmored_husk",
+        "wwise/events/weapon/play_bullet_hits_laser_unarmored_reduced",
+    },
 }
