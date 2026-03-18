@@ -3,6 +3,8 @@ local mod = get_mod("MuteImpacts")
 -- These are found manually
 -- There are too many exceptions when I tried using logical loops
 -- Instead, I reserved that for localization
+-- The keys are made up to match my localization key style
+-- The values are the actual wwise events
 mod.sounds_to_toggle = {
 	forcestaff_primary_fire = "wwise/events/weapon/play_explosion_force_sml",
 	-- --------------------------
