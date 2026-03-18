@@ -24,10 +24,19 @@ local localizations = {
 		en = "Audio Plugin not detected!",
 	},
 	-- -------------------------
-	-- Exceptions
+	-- One-off Sounds
 	-- -------------------------
 	forcestaff_primary_fire = {
 		en = "Force Staff Primary Fire",
+	},
+	lasbeam_crack_player = {
+		en = "Lasbeam Crack (Player)",
+	},
+	lasbeam_crack_enemy_captain = {
+		en = "Lasbeam Crack (Rodin Karnak)",
+	},
+	lasbeam_crack_enemy = {
+		en = "Lasbeam Crack (Other Scab Enemies)",
 	},
 }
 

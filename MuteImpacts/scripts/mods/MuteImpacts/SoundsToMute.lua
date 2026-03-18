@@ -6,7 +6,16 @@ local mod = get_mod("MuteImpacts")
 -- The keys are made up to match my localization key style
 -- The values are the actual wwise events
 mod.sounds_to_toggle = {
+	-- --------------------------
+    -- Force Staff left click
+	-- --------------------------
 	forcestaff_primary_fire = "wwise/events/weapon/play_explosion_force_sml",
+	-- --------------------------
+    -- Lasbeam Crack
+	-- --------------------------
+    lasbeam_crack_player = "wwise/events/weapon/play_weapon_lasgun_crack_beam_nearby",
+    lasbeam_crack_enemy_captain = "wwise/events/weapon/play_weapon_lasgun_crack_beam_imperial_guards",
+    lasbeam_crack_enemy = "wwise/events/weapon/play_weapon_lasgun_crack_beam_nearby_husk",
 	-- --------------------------
     -- Melee hits
 	-- --------------------------
