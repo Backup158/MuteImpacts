@@ -18,7 +18,7 @@ for setting_name, _ in pairs(sounds_to_toggle) do
 	table_insert(final_widgets, {
 		setting_id = setting_name,
         type = "checkbox",
-        default_value = false,
+        default_value = true,
 	})
 end
 
