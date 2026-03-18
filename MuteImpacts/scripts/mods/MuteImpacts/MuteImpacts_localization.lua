@@ -18,8 +18,20 @@ local localizations_to_reuse = {
 		no_damage = {
 			en = "No Damage",
 		},
+		res = {
+			en = "Damage Reduced",
+		},
 		armor = {
 			en = "Armored Hit",
+		},
+		armor_break = {
+			en = "Armor Broken",
+		},
+		light = {
+			en = "Light Attack",
+		},
+		heavy = {
+			en = "Heavy Attack",
 		},
 	},
 	-- Melee
@@ -46,6 +58,12 @@ local localizations_to_reuse = {
 		},
 		knife = {
 			en = "Knife",
+		},
+		human_punch = {
+			en = "Human Punch",
+		},
+		ogryn_punch = {
+			en = "Ogryn Punch",
 		},
 	},
 	-- Ranged
@@ -83,7 +101,9 @@ local localizations = {
 --	these localize the keys found in SoundsToMute.lua
 --  they will create more localizations than necessary, but that is no problem
 for damage_done, damage_done_localization in pairs(localizations_to_reuse.damage_done) do
+	-- -------------------------
 	-- Carapace negation
+	-- -------------------------
 	for armor_type, armor_type_localization in pairs(localizations_to_reuse.armor_type) do
 		for damage_type, damage_type_localization in pairs(localizations_to_reuse.damage_type) do
 			localizations[armor_type.."_"..damage_done.."_"..damage_type] = {
@@ -92,14 +112,23 @@ for damage_done, damage_done_localization in pairs(localizations_to_reuse.damage
 			}
 		end 
 	end 
+	-- -------------------------
 	-- Melee hits against armor
+	-- -------------------------
 	for weapon_type, weapon_type_localization in pairs(localizations_to_reuse.melee_weapon_types) do
 		localizations["melee_hits_"..damage_done.."_"..weapon_type] = {
 			-- melee_hits_blunt_no_damage = "Melee Hit: No Damage (Blunt)"
 			en = localizations_to_reuse.melee_hits["en"]..": "..damage_done_localization["en"].." ("..weapon_type_localization["en"]..")"
 		}
 	end
+	-- There's an axe specific one
+	localizations["melee_hits_axe_"..damage_done] = {
+		-- melee_hits_blunt_no_damage = "Melee Hit: Axe (Damage Reduced)"
+		en = localizations_to_reuse.melee_hits["en"]..": "..localizations_to_reuse.axe["en"].." ("..damage_done_localization["en"]..")"
+	}
+	-- -------------------------
 	-- Ranged hits against armor
+	-- -------------------------
 	for weapon_type, weapon_type_localization in pairs(localizations_to_reuse.ranged_weapon_types) do
 		localizations["ranged_hits_"..damage_done.."_"..weapon_type] = {
 			-- ranged_hits_laser_no_damage = "Ranged Hit: No Damage (Laser)"
