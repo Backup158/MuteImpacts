@@ -5,7 +5,7 @@ local mod = get_mod("MuteImpacts")
 -- Instead, I reserved that for localization
 -- The keys are made up to match my localization key style
 -- The values are the actual wwise events
-mod.sounds_to_toggle = {
+local sounds_to_toggle = {
 	-- --------------------------
     -- Force Staff left click
 	-- --------------------------
@@ -170,3 +170,11 @@ mod.sounds_to_toggle = {
         do_not_disable_by_default = true,
     },
 }
+
+mod.sounds_to_toggle = sounds_to_toggle
+
+local sound_lookup_copy = {}
+for _, sound_table in ipairs(sounds_to_toggle) do
+    sound_lookup_copy[sound_table.internal_id] = sound_table.sound_event
+end
+mod.sound_lookup_copy = sound_lookup_copy
