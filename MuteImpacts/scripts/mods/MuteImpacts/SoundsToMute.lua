@@ -62,12 +62,14 @@ local sounds_to_toggle = {
         sound_event = "wwise/events/ui/play_ui_empower_weapon.*", -- also has max
     },
 	-- --------------------------
-    -- NPC UI Sounds
+    -- Player Pox Gas Coughs
 	-- --------------------------
-    -- coughs on "enter" and "exit"
     {
         internal_id = "player_gas_cough",
-        sound_event = "wwise/events/player/play_player_gas.*",
+        -- sfx on "enter" and "exit"
+        --sound_event = "wwise/events/player/play_player_gas.*",
+        -- Voice coughing for all 
+        sound_event = "wwise/events/player/play_.*vce_coughing.*",
     },
 	-- --------------------------
     -- Melee hits

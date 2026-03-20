@@ -2,8 +2,8 @@
 2026-03-20
 
 - Added player coughing from gas
-    - `play_player_gas_enter`
-    - `play_player_gas_exit`
+    - such as `play_veteran_female_a__vce_coughing_ends`
+    - Applies for beginning/ending coughs for all player voices
 - Prevented some options from being disabled by default
     - axe light/heavy generic hit
     - unarmored generic/lasgun hit
