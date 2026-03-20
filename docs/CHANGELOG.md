@@ -7,7 +7,7 @@
 - Prevented some options from being disabled by default
     - axe light/heavy generic hit
     - unarmored generic/lasgun hit
-- Refactored code to keep Mod Options in order
+- Refactored code to keep Mod Options in order (this drove me crazy and genuinely made me not want to use my own mod lmaooo)
 
 # v1.1.0
 2026-03-18
