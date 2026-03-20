@@ -12,6 +12,7 @@ local audio_plugin
 -- Local References for Performance
 -- ################################
 local pairs = pairs
+local ipairs = ipairs
 
 mod:io_dofile("MuteImpacts/scripts/mods/MuteImpacts/SoundsToMute")
 local sounds_to_toggle = mod.sounds_to_toggle
@@ -27,7 +28,7 @@ mod.on_all_mods_loaded = function()
     end
 
     local sounds_to_toggle = mod.sounds_to_toggle
-    for setting_name, sound_event in pairs(sounds_to_toggle) do 
+    for setting_name, sound_event in ipairs(sounds_to_toggle) do 
         if mod:get(setting_name) then
             audio_plugin.silence_sounds(sound_event)
         end
