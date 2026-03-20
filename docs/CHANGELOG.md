@@ -1,3 +1,10 @@
+# v1.2.0
+2026-03-20
+
+- Added player coughing from gas
+    - `play_player_gas_enter`
+    - `play_player_gas_exit`
+
 # v1.1.0
 2026-03-18
 
