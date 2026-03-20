@@ -67,7 +67,7 @@ local sounds_to_toggle = {
     -- coughs on "enter" and "exit"
     {
         internal_id = "player_gas_cough",
-        sound_event = "wwise/events/ui/play_player_gas.*",
+        sound_event = "wwise/events/player/play_player_gas.*",
     },
 	-- --------------------------
     -- Melee hits
