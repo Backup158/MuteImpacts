@@ -27,6 +27,11 @@ mod.sounds_to_toggle = {
     crafting_interact_upgrade = "wwise/events/ui/play_ui_npc_interacts_forge_upgrade_item",
     crafting_interact_empower = "wwise/events/ui/play_ui_empower_weapon.*", -- also has max
 	-- --------------------------
+    -- NPC UI Sounds
+	-- --------------------------
+    -- coughs on "enter" and "exit"
+    player_gas_cough = "wwise/events/ui/play_player_gas.*",
+	-- --------------------------
     -- Melee hits
 	-- --------------------------
     -- -------------

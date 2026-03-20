@@ -59,6 +59,9 @@ local localizations = {
 	crafting_interact_empower = {
 		en = "Shrine of the Omnissiah: Empower Item",
 	},
+	player_gas_cough = {
+		en = "Coughing from Pox Gas",
+	},
 }
 
 -- ################
