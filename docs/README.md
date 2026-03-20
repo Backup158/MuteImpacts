@@ -1,23 +1,27 @@
-Remove sounds such as Psyker Primary Fire explosions and the plinking from doing no or reduced Damage against Carapace/Flak Armor. 
-Uses the Audio plugin to mute the listed sounds. All sounds are silenced by default, and can be unsilenced in the Mod Options.
+Remove sounds such as Psyker staff Primary Fire explosions and the plinking from doing no or reduced Damage against Carapace/Flak Armor. 
+Uses the Audio plugin to mute the listed sounds. 
 
 # Sound Options
+Most sounds are silenced by default, and can be unsilenced in the Mod Options. Ones left alone by default are marked with a [*]
 - Psyker staff Primary Fire impact
 - Cracking from lasguns shooting nearby (with options for player and enemy shots)
 - Melee hits
     - Doing no damage against Carapace
     - Hitting Carapace or Flak with various weapon types
     - Reduced damage with axe hits (Axes and Shovels)
+    - Axe light attacks [*]
+    - Axe heavy attacks [*]
 - Ranged hits (each have options for Lasers and general shots)
     - Damage negated
     - Armored
-    - Unarmored
+    - Unarmored [*]
 - UI Sounds
     - Entering NPC menu
     - Hadron trait edits
     - Hadron blessing edits
     - Hadron Consecration
     - Hadron Empowerment
+- Player Coughs from Pox Gas
 
 # Load Order
 **DarktideLocalServer**
