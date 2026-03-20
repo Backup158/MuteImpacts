@@ -21,7 +21,7 @@ for _, setting_table in ipairs(sounds_to_toggle) do
 	table_insert(final_widgets, {
 		setting_id = setting_table.internal_id,
         type = "checkbox",
-        default_value = setting_table.do_not_disable_by_default or false,
+        default_value = not setting_table.do_not_disable_by_default,
 	})
 end
 
