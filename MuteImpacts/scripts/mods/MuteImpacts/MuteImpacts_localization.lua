@@ -154,7 +154,7 @@ for damage_done, damage_done_localization in pairs(localizations_to_reuse.damage
 	-- -------------------------
 	for armor_type, armor_type_localization in pairs(localizations_to_reuse.armor_type) do
 		for damage_type, damage_type_localization in pairs(localizations_to_reuse.damage_type) do
-			localizations[armor_type.."_"..damage_done.."_"..damage_type] = {
+			localizations["melee_hits_"..armor_type.."_"..damage_done.."_"..damage_type] = {
 				-- super_armor_no_damage_melee_slashing = "Carapace: No Damage (Melee Slashing)"
 				en = armor_type_localization["en"]..": "..damage_done_localization["en"].." ("..damage_type_localization["en"]..")"
 			}

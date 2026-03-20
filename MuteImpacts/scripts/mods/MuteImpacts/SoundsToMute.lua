@@ -37,8 +37,8 @@ mod.sounds_to_toggle = {
     -- -------------
     -- Against Armor
     -- -------------
-	super_armor_no_damage_melee_slashing = "wwise/events/weapon/play_hit_indicator_melee_slashing_super_armor_no_damage",
-    super_armor_no_damage_melee = "wwise/events/weapon/play_hit_indicator_melee_super_armor_no_damage",
+	melee_hits_super_armor_no_damage_melee_slashing = "wwise/events/weapon/play_hit_indicator_melee_slashing_super_armor_no_damage",
+    melee_hits_super_armor_no_damage_melee = "wwise/events/weapon/play_hit_indicator_melee_super_armor_no_damage",
     melee_hits_no_damage_blunt = "wwise/events/weapon/melee_hits_blunt_no_damage", -- for some reason these have no play_
     melee_hits_no_damage_sword = "wwise/events/weapon/melee_hits_sword_no_damage", -- for some reason these have no play_
     melee_hits_armor_axe = "wwise/events/weapon/play_melee_hits_axe_armor",
