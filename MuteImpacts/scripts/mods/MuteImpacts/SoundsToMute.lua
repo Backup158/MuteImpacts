@@ -1,10 +1,17 @@
 local mod = get_mod("MuteImpacts")
 
--- These are found manually
--- There are too many exceptions when I tried using logical loops
--- Instead, I reserved that for localization
--- The keys are made up to match my localization key style
--- The values are the actual wwise events
+-- ----------------------------------------------------
+-- Sounds to Mute
+-- ----------------------------------------------------
+-- These are found manually, as there are too many exceptions when I tried using logical loops
+--  Instead, I reserved that for localization
+--  Since there, overzealous matching won't cause issues
+-- Used as the base for all logic involving this
+--  Kept ordered and has do_not_disable entry for the Mod Options
+--  Copy is made for fast lookup in main logic using just key value pairs
+-- internal_id: made up to match my localization key style
+-- values: The actual wwise events
+-- ----------------------------------------------------
 local sounds_to_toggle = {
 	-- --------------------------
     -- Force Staff left click
@@ -175,6 +182,12 @@ local sounds_to_toggle = {
 
 mod.sounds_to_toggle = sounds_to_toggle
 
+-- ----------------------------------------------------
+-- Making Lookup Table for Easier Searching
+-- Mainly for fast lookup when changing a specific sound based on mod option
+--  When order doesn't matter
+--  When you just need the key value pair
+-- ----------------------------------------------------
 local sound_lookup_copy = {}
 for _, sound_table in ipairs(sounds_to_toggle) do
     sound_lookup_copy[sound_table.internal_id] = sound_table.sound_event
