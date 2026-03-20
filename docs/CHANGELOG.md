@@ -4,6 +4,9 @@
 - Added player coughing from gas
     - `play_player_gas_enter`
     - `play_player_gas_exit`
+- Prevented some options from being disabled by default
+    - axe light/heavy generic hit
+    - unarmored generic/lasgun hit
 
 # v1.1.0
 2026-03-18
