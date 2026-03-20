@@ -17,23 +17,11 @@ local sounds_to_toggle = mod.sounds_to_toggle
 -- ################################
 local final_widgets = {}
 
--- Manually tracking things to not disable here
--- Because I'm too lazy to turn every entry in SoundsToMute into a subtable
-local sounds_to_not_disable_by_default = {
-	"melee_hits_light_axe",
-	"melee_hits_heavy_axe",
-	"ranged_hits_unarmored_gen",
-	"ranged_hits_unarmored_laser",
-}
-
-for setting_name, _ in ipairs(sounds_to_toggle) do 
-	local truth = true
-	if table_contains(sounds_to_not_disable_by_default, setting_name) then truth = false end
-
+for _, setting_table in ipairs(sounds_to_toggle) do 
 	table_insert(final_widgets, {
-		setting_id = setting_name,
+		setting_id = setting_table.internal_id,
         type = "checkbox",
-        default_value = truth,
+        default_value = setting_table.do_not_disable_by_default or false,
 	})
 end
 
