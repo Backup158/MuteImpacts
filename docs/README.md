@@ -32,6 +32,8 @@ Most sounds are silenced by default, and can be unsilenced in the Mod Options. O
 
 **MuteImpacts**
 
+*whatever other Audio mods*
+
 *whatever other mods*
 
 
