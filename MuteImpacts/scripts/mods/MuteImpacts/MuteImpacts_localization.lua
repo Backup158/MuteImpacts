@@ -98,11 +98,14 @@ local localizations_to_reuse = {
 		no_damage = {
 			en = "No Damage",
 		},
-		res = {
-			en = "Damage Reduced",
+		shield = {
+			en = "Bulwark Shield Hit",
 		},
 		armor = {
 			en = "Armored Hit",
+		},
+		res = {
+			en = "Damage Reduced",
 		},
 		unarmor = {
 			en = "Unarmored Hit",
