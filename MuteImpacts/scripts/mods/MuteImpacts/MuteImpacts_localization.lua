@@ -29,6 +29,9 @@ local localizations = {
 	forcestaff_primary_fire = {
 		en = "Force Staff Primary Fire",
 	},
+	-- -------------
+    -- Lasgun Shots
+	-- -------------
 	lasbeam_crack_player = {
 		en = "Lasbeam Crack (Player)",
 	},
@@ -38,6 +41,21 @@ local localizations = {
 	lasbeam_crack_enemy = {
 		en = "Lasbeam Crack (Other Scab Enemies)",
 	},
+	-- -------------
+    -- Lightning Attacks
+	-- -------------
+	lightning_attack_hit = {
+		en = "Lightning Attack Hit and Stop",
+	},
+	-- -------------
+    -- Arbites Maul Trail
+	-- -------------
+	adamant_maul_swing = {
+		en = "Arbites Shock Maul Swing Trail",
+	},
+	-- -------------
+    -- Menus
+	-- -------------
 	penance_reward_claim = {
 		en = "Claiming Penance Rewards",
 	},
@@ -59,6 +77,9 @@ local localizations = {
 	crafting_interact_empower = {
 		en = "Shrine of the Omnissiah: Empower Item",
 	},
+	-- -------------
+    -- Cough
+	-- -------------
 	player_gas_cough = {
 		en = "Coughing from Pox Gas",
 	},

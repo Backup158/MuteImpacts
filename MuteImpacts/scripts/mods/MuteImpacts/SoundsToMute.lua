@@ -36,6 +36,22 @@ local sounds_to_toggle = {
         sound_event = "wwise/events/weapon/play_weapon_lasgun_crack_beam_nearby_husk",
     },
 	-- --------------------------
+    -- Lightning Sounds
+	-- --------------------------
+    {
+        -- "play" and "stop"
+        internal_id = "lightning_attack_hit",
+        sound_event = "wwise/events/weapon/*_psyker_chain_lightning_hit",
+    },
+	-- --------------------------
+    -- Shock Maul Swings
+	-- --------------------------
+    {
+        -- Includes the "_heavy" event too
+        internal_id = "adamant_maul_swing",
+        sound_event = "wwise/events/weapon/play_shockmaul_1h_p2_swing*",
+    },
+	-- --------------------------
     -- NPC UI Sounds
 	-- --------------------------
     {
@@ -93,6 +109,14 @@ local sounds_to_toggle = {
         sound_event = "wwise/events/weapon/play_hit_indicator_melee_super_armor_no_damage",
     },
     {
+        internal_id = "melee_hits_res_blunt",
+        sound_event = "wwise/events/weapon/melee_hits_blunt_reduced_damage", -- for some reason these have no play_
+    },
+    {
+        internal_id = "melee_hits_shield_blunt",
+        sound_event = "wwise/events/weapon/melee_hits_blunt_shield", -- for some reason these have no play_
+    },
+    {
         internal_id = "melee_hits_no_damage_blunt",
         sound_event = "wwise/events/weapon/melee_hits_blunt_no_damage", -- for some reason these have no play_
     },
@@ -105,8 +129,9 @@ local sounds_to_toggle = {
         sound_event = "wwise/events/weapon/play_melee_hits_axe_armor",
     },
     {
+        -- accounting for play_ and no play
         internal_id = "melee_hits_armor_blunt",
-        sound_event = "wwise/events/weapon/play_melee_hits_blunt_armor",
+        sound_event = "wwise/events/weapon/*melee_hits_blunt_armor",
     },
     {
         internal_id = "melee_hits_armor_sword",
