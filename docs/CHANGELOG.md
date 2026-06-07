@@ -1,3 +1,12 @@
+# v1.3.0
+2026-06-06
+
+- Added Arbites Shock Maul swing effects
+    - These use the `play_psyker_chain_lightning_hit` sounds for the direct shock effect
+    - Empty swings use `play_shockmaul_1h_p2_swing`, with a heavy variant
+- Added support for blunt Bulwark Shield hit (`melee_hits_blunt_shield`)
+- Updated `melee_hits_armor_blunt` to account for the event without `play_` at the start
+
 # v1.2.0
 2026-03-20
 
