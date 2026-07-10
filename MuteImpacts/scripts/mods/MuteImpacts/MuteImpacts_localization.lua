@@ -53,6 +53,9 @@ local localizations = {
 	adamant_maul_swing = {
 		en = "Arbites Shock Maul Swing Trail",
 	},
+	shock_maul_hit = {
+		en = "Shock Maul Hit",
+	},
 	-- -------------
     -- Menus
 	-- -------------

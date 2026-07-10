@@ -1,5 +1,10 @@
 # 1.4.0 - 2026-07-08
 - Added support for Simple Audio (SA)
+- Added
+    - Shock Maul hit `play_powermaul_1h_hit` (not disabled by default)
+    - Melee Hits, blunt heavy `*melee_hits_blunt_heavy` (not disabled by default)
+- Option tooltips include tags
+
 
 # v1.3.0
 2026-06-06

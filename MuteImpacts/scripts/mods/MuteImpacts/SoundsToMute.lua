@@ -42,6 +42,7 @@ local sounds_to_toggle = {
         -- "play" and "stop"
         internal_id = "lightning_attack_hit",
         sound_event = "wwise/events/weapon/*_psyker_chain_lightning_hit",
+        do_not_disable_by_default = true,
     },
 	-- --------------------------
     -- Shock Maul Swings
@@ -50,6 +51,12 @@ local sounds_to_toggle = {
         -- Includes the "_heavy" event too
         internal_id = "adamant_maul_swing",
         sound_event = "wwise/events/weapon/play_shockmaul_1h_p2_swing*",
+    },
+    {
+        -- Includes the "_heavy" event too
+        internal_id = "shock_maul_hit",
+        sound_event = "wwise/events/weapon/play_powermaul_1h_hit",
+        do_not_disable_by_default = true,
     },
 	-- --------------------------
     -- NPC UI Sounds
@@ -162,6 +169,11 @@ local sounds_to_toggle = {
     {
         internal_id = "melee_hits_heavy_axe",
         sound_event = "wwise/events/weapon/play_melee_hits_axe_heavy",
+        do_not_disable_by_default = true,
+    },
+    {
+        internal_id = "melee_hits_heavy_blunt",
+        sound_event = "wwise/events/weapon/*melee_hits_blunt_heavy",
         do_not_disable_by_default = true,
     },
 	-- --------------------------
