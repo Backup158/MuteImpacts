@@ -1,3 +1,6 @@
+# 1.4.0 - 2026-07-08
+- Added support for Simple Audio (SA)
+
 # v1.3.0
 2026-06-06
 

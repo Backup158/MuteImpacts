@@ -21,7 +21,7 @@ local localizations = {
 		en = "Mute impact SFX and such",
 	},
 	missing_audio_plugin_error = {
-		en = "Audio Plugin not detected!",
+		en = "Simple Audio and Audio Plugin not detected! You need at least one of those installed.",
 	},
 	-- -------------------------
 	-- One-off Sounds

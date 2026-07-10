@@ -1,5 +1,5 @@
 Remove sounds such as Psyker staff Primary Fire explosions, coughing from Pox gas, and the plinking from doing no or reduced Damage against Carapace/Flak Armor. 
-Uses the Audio plugin to mute the listed sounds. 
+Uses the Simple Audio or the Audio plugin to mute the listed sounds. 
 
 # Sound Options
 Most sounds are silenced by default, and can be unsilenced in the Mod Options. Ones left alone by default are marked with a [*]
