@@ -20,6 +20,7 @@ local sounds_to_toggle = {
 	{
         internal_id = "forcestaff_primary_fire",
         sound_event = "wwise/events/weapon/play_explosion_force_sml",
+        tab = "psyker",
     },
     -- Foot blasts p1 and Bowling balls p4
     --  catches itself and husk
@@ -27,6 +28,7 @@ local sounds_to_toggle = {
         internal_id = "forcestaff_secondary_fire_explosion",
         sound_event = "wwise/events/weapon/play_explosion_force_med*",
         do_not_disable_by_default = true,
+        tab = "psyker",
     },
 	-- --------------------------
     -- Lasbeam Crack
@@ -34,14 +36,17 @@ local sounds_to_toggle = {
     {
         internal_id = "lasbeam_crack_player",
         sound_event = "wwise/events/weapon/play_weapon_lasgun_crack_beam_nearby",
+        tab = "Lasbeam",
     },
     {
         internal_id = "lasbeam_crack_enemy_captain",
         sound_event = "wwise/events/weapon/play_weapon_lasgun_crack_beam_imperial_guards",
+        tab = "Lasbeam",
     },
     {
         internal_id = "lasbeam_crack_enemy",
         sound_event = "wwise/events/weapon/play_weapon_lasgun_crack_beam_nearby_husk",
+        tab = "Lasbeam",
     },
 	-- --------------------------
     -- Lightning Sounds
@@ -51,6 +56,7 @@ local sounds_to_toggle = {
         internal_id = "lightning_attack_hit",
         sound_event = "wwise/events/weapon/*_psyker_chain_lightning_hit",
         do_not_disable_by_default = true,
+        tab = "Electrocution",
     },
 	-- --------------------------
     -- Shock Maul Swings
@@ -59,12 +65,14 @@ local sounds_to_toggle = {
         -- Includes the "_heavy" event too
         internal_id = "adamant_maul_swing",
         sound_event = "wwise/events/weapon/play_shockmaul_1h_p2_swing*",
+        tab = "Electrocution",
     },
     {
         -- Includes the "_heavy" event too
         internal_id = "shock_maul_hit",
         sound_event = "wwise/events/weapon/play_powermaul_1h_hit",
         do_not_disable_by_default = true,
+        tab = "Electrocution",
     },
 	-- --------------------------
     -- NPC UI Sounds
@@ -72,32 +80,39 @@ local sounds_to_toggle = {
     {
         internal_id = "penance_reward_claim",
         sound_event = "wwise/events/ui/play_ui_penances.*claim",
+        tab = "NPC_UI",
     },
     {
         internal_id = "npc_menu_enter",
         sound_event = "wwise/events/ui/play_ui_npc.*enter",
+        tab = "NPC_UI",
     },
     --[[
     {
         internal_id = "crafting_interact_forge_button",
         sound_event = "wwise/events/ui/play_ui_npc_interacts_forge_button_fx",
+        tab = "NPC_UI",
     },
     ]]
     {
         internal_id = "crafting_interact_traits",
         sound_event = "wwise/events/ui/play_ui_npc_interacts_forge_.*_trait.*",
+        tab = "NPC_UI",
     },
     {
         internal_id = "crafting_interact_perk_reroll",
         sound_event = "wwise/events/ui/play_ui_npc_interacts_forge_reroll_perk",
+        tab = "NPC_UI",
     },
     {
         internal_id = "crafting_interact_upgrade",
         sound_event = "wwise/events/ui/play_ui_npc_interacts_forge_upgrade_item",
+        tab = "NPC_UI",
     },
     {
         internal_id = "crafting_interact_empower",
         sound_event = "wwise/events/ui/play_ui_empower_weapon.*", -- also has max
+        tab = "NPC_UI",
     },
 	-- --------------------------
     -- Player Pox Gas Coughs
@@ -108,6 +123,7 @@ local sounds_to_toggle = {
         --sound_event = "wwise/events/player/play_player_gas.*",
         -- Voice coughing for all 
         sound_event = "wwise/events/player/play_.*vce_coughing.*",
+        tab = "Player Voice",
     },
 	-- --------------------------
     -- Melee hits
@@ -118,43 +134,53 @@ local sounds_to_toggle = {
 	{
         internal_id = "melee_hits_super_armor_no_damage_melee_slashing",
         sound_event = "wwise/events/weapon/play_hit_indicator_melee_slashing_super_armor_no_damage",
+        tab = "Melee Hits",
     },
     {
         internal_id = "melee_hits_super_armor_no_damage_melee",
         sound_event = "wwise/events/weapon/play_hit_indicator_melee_super_armor_no_damage",
+        tab = "Melee Hits",
     },
     {
         internal_id = "melee_hits_res_blunt",
         sound_event = "wwise/events/weapon/melee_hits_blunt_reduced_damage", -- for some reason these have no play_
+        tab = "Melee Hits",
     },
     {
         internal_id = "melee_hits_shield_blunt",
         sound_event = "wwise/events/weapon/melee_hits_blunt_shield", -- for some reason these have no play_
+        tab = "Melee Hits",
     },
     {
         internal_id = "melee_hits_no_damage_blunt",
         sound_event = "wwise/events/weapon/melee_hits_blunt_no_damage", -- for some reason these have no play_
+        tab = "Melee Hits",
     },
     {
         internal_id = "melee_hits_no_damage_sword",
         sound_event = "wwise/events/weapon/melee_hits_sword_no_damage", -- for some reason these have no play_
+        tab = "Melee Hits",
     },
     {
         internal_id = "melee_hits_armor_axe",
         sound_event = "wwise/events/weapon/play_melee_hits_axe_armor",
+        tab = "Melee Hits",
     },
     {
         -- accounting for play_ and no play
         internal_id = "melee_hits_armor_blunt",
         sound_event = "wwise/events/weapon/*melee_hits_blunt_armor",
+        tab = "Melee Hits",
     },
     {
         internal_id = "melee_hits_armor_sword",
         sound_event = "wwise/events/weapon/play_melee_hits_sword_armor",
+        tab = "Melee Hits",
     },
     {
         internal_id = "melee_hits_armor_knife",
         sound_event = "wwise/events/weapon/play_melee_hits_knife_armor",
+        tab = "Melee Hits",
     },
     -- -------------
     -- Reduced Damage
@@ -162,6 +188,7 @@ local sounds_to_toggle = {
     {
         internal_id = "melee_hits_res_axe",
         sound_event = "wwise/events/weapon/play_melee_hits_axe_res",
+        tab = "Melee Hits",
     },
     -- -------------
     -- Light Attacks
@@ -170,6 +197,7 @@ local sounds_to_toggle = {
         internal_id = "melee_hits_light_axe",
         sound_event = "wwise/events/weapon/play_melee_hits_axe_light",
         do_not_disable_by_default = true,
+        tab = "Melee Hits",
     },
     -- -------------
     -- Heavy Attacks
@@ -178,11 +206,13 @@ local sounds_to_toggle = {
         internal_id = "melee_hits_heavy_axe",
         sound_event = "wwise/events/weapon/play_melee_hits_axe_heavy",
         do_not_disable_by_default = true,
+        tab = "Melee Hits",
     },
     {
         internal_id = "melee_hits_heavy_blunt",
         sound_event = "wwise/events/weapon/*melee_hits_blunt_heavy",
         do_not_disable_by_default = true,
+        tab = "Melee Hits",
     },
 	-- --------------------------
     -- Ranged damage
@@ -193,10 +223,12 @@ local sounds_to_toggle = {
     {
         internal_id = "ranged_hits_no_damage_gen",
         sound_event = "wwise/events/weapon/play_bullet_hits_gen_damage_negated",
+        tab = "Ranged Hits",
     },
     {
         internal_id = "ranged_hits_no_damage_laser",
         sound_event = "wwise/events/weapon/play_bullet_hits_laser_damage_negated",
+        tab = "Ranged Hits",
     },
     -- -------------
     -- Armored
@@ -205,10 +237,12 @@ local sounds_to_toggle = {
     {
         internal_id = "ranged_hits_armored_gen",
         sound_event = "wwise/events/weapon/play_bullet_hits_gen_armored.*",
+        tab = "Ranged Hits",
     },
     {
         internal_id = "ranged_hits_armored_laser",
         sound_event = "wwise/events/weapon/play_bullet_hits_laser_armored.*",
+        tab = "Ranged Hits",
     },
     -- -------------
     -- Unarmored
@@ -217,11 +251,13 @@ local sounds_to_toggle = {
         internal_id = "ranged_hits_unarmored_gen",
         sound_event = "wwise/events/weapon/play_bullet_hits_gen_unarmored.*",
         do_not_disable_by_default = true,
+        tab = "Ranged Hits",
     },
     {
         internal_id = "ranged_hits_unarmored_laser",
         sound_event = "wwise/events/weapon/play_bullet_hits_laser_unarmored.*",
         do_not_disable_by_default = true,
+        tab = "Ranged Hits",
     },
 }
 

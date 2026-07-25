@@ -24,6 +24,7 @@ for _, setting_table in ipairs(sounds_to_toggle) do
         type = "checkbox",
 		tooltip = setting_table.sound_event,
         default_value = not setting_table.do_not_disable_by_default,
+		tab = setting_table.tab, -- Alf's DMF Ext
 	}
 	final_widgets_iterator = final_widgets_iterator + 1
 end
