@@ -20,7 +20,7 @@ local sounds_to_toggle = {
 	{
         internal_id = "forcestaff_primary_fire",
         sound_event = "wwise/events/weapon/play_explosion_force_sml",
-        tab = "psyker",
+        tab = "Psyker",
     },
     -- Foot blasts p1 and Bowling balls p4
     --  catches itself and husk
@@ -28,7 +28,7 @@ local sounds_to_toggle = {
         internal_id = "forcestaff_secondary_fire_explosion",
         sound_event = "wwise/events/weapon/play_explosion_force_med*",
         do_not_disable_by_default = true,
-        tab = "psyker",
+        tab = "Psyker",
     },
 	-- --------------------------
     -- Lasbeam Crack
