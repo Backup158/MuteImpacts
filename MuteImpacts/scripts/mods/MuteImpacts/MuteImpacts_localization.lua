@@ -4,6 +4,8 @@ local mod = get_mod("MuteImpacts")
 -- Local References for Performance
 -- ################################
 local pairs = pairs
+local string = string
+local string_format = string.format
 
 -- ################################
 -- Localization
@@ -28,6 +30,11 @@ local localizations = {
 	-- -------------------------
 	forcestaff_primary_fire = {
 		en = "Force Staff Primary Fire",
+	},
+	forcestaff_secondary_fire_explosion = {
+		-- en = "Force Staff Secondary Fire Explosion",
+		en = string_format("%s/%s Secondary Fire Explosion", Localize("loc_weapon_family_forcestaff_p4_m1"), Localize("loc_weapon_family_forcestaff_p1_m1")),
+		-- en = string_format("%s %s %s and %s %s %s", Localize("loc_weapon_pattern_forcestaff_p4_m1"), Localize("loc_weapon_mark_forcestaff_p4_m1"), Localize("loc_weapon_family_forcestaff_p4_m1"), Localize("loc_weapon_pattern_forcestaff_p1_m1"), Localize("loc_weapon_mark_forcestaff_p1_m1"), Localize("loc_weapon_family_forcestaff_p1_m1")),
 	},
 	-- -------------
     -- Lasgun Shots

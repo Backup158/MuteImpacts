@@ -1,6 +1,5 @@
 # 1.5.0 - 2026-07-25
-- Added mute for Psyker staffs
-    - Voidblast
+- Added mute for Psyker staffs explosion (Voidblast + Voidstrike)
 - Refactored table creation to be [more efficient](https://dmf-docs.darkti.de/#/Fatshark-%E2%80%90-Lua-Optimizing-Guide?id=specify-the-shape-of-tables-at-creation)
 
 # 1.4.0 - 2026-07-08
