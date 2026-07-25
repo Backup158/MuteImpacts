@@ -3,8 +3,6 @@ local mod = get_mod("MuteImpacts")
 -- ################################
 -- Local References for Performance
 -- ################################
-local pairs = pairs
-local ipairs = ipairs
 local table = table
 local table_insert = table.insert
 local table_contains = table.contains
@@ -18,7 +16,9 @@ local sounds_to_toggle = mod.sounds_to_toggle
 local final_widgets = Script.new_map( #sounds_to_toggle )
 local final_widgets_iterator = 1
 
-for _, setting_table in ipairs(sounds_to_toggle) do 
+for i = 1, #sounds_to_toggle do 
+	local setting_table = sounds_to_toggle[i]
+
 	final_widgets[final_widgets_iterator] = {
 		setting_id = setting_table.internal_id,
         type = "checkbox",

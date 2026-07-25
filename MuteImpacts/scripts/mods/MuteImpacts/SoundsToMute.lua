@@ -270,7 +270,8 @@ mod.sounds_to_toggle = sounds_to_toggle
 --  When you just need the key value pair
 -- ----------------------------------------------------
 local sound_lookup_copy = Script.new_map( #sounds_to_toggle )
-for _, sound_table in ipairs(sounds_to_toggle) do
+for i = 1, #sounds_to_toggle do
+    local sound_table = sounds_to_toggle[i]
     sound_lookup_copy[sound_table.internal_id] = sound_table.sound_event
 end
 mod.sound_lookup_copy = sound_lookup_copy

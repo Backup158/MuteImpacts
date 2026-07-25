@@ -1,5 +1,6 @@
 # 1.5.1 - 2026-07-25
 - Fixed not having support for Alf's DMF Extensions (this is actualy a new feature but I didn't want to bump the version up).
+- Refactored [array access](https://dmf-docs.darkti.de/#/Fatshark-%E2%80%90-Lua-Optimizing-Guide?id=prefer-numeric-for-loops-over-ipairs-to-iterate-over-arrays)
 
 # 1.5.0 - 2026-07-25
 - Added mute for Psyker staffs explosion (Voidblast + Voidstrike)
