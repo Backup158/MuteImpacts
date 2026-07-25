@@ -15,7 +15,7 @@ local sounds_to_toggle = mod.sounds_to_toggle
 -- ################################
 -- Widget Creation
 -- ################################
-local final_widgets = {}
+local final_widgets = Script.new_map( #sounds_to_toggle )
 
 for _, setting_table in ipairs(sounds_to_toggle) do 
 	table_insert(final_widgets, {
