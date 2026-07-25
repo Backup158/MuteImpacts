@@ -5,8 +5,7 @@ Uses the Simple Audio or the Audio plugin to mute the listed sounds.
 Most sounds are silenced by default, and can be unsilenced in the Mod Options. Ones left alone by default are marked with a [*]
 - Psyker staff
     - Primary Fire impact
-    - Voidstrike alt fire [*]
-    - Voidblast alt fire [*]
+    - Voidstrike/Voidblast alt fire [*]
 - Cracking from lasguns shooting nearby (with options for player and enemy shots)
 - Arbites Shock Maul swing effects
     - Shocking hit
