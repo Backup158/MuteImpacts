@@ -21,7 +21,7 @@ local sounds_to_toggle = {
         internal_id = "forcestaff_primary_fire",
         sound_event = "wwise/events/weapon/play_explosion_force_sml",
     },
-    -- Bowling balls p4
+    -- Foot blasts p1 and Bowling balls p4
     --  catches itself and husk
 	{
         internal_id = "forcestaff_secondary_fire_explosion",
