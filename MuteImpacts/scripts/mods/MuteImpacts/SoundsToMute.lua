@@ -20,7 +20,7 @@ local sounds_to_toggle = {
 	{
         internal_id = "forcestaff_primary_fire",
         sound_event = "wwise/events/weapon/play_explosion_force_sml",
-        tab = "Psyker",
+        tab = "Psyker Explosions",
     },
     -- Foot blasts p1 and Bowling balls p4
     --  catches itself and husk
