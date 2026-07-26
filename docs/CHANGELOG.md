@@ -1,8 +1,8 @@
-# 1.5.1 - 2026-07-25
+# 1.5.1 - UNRELEASED
 - Refactored [array access](https://dmf-docs.darkti.de/#/Fatshark-%E2%80%90-Lua-Optimizing-Guide?id=prefer-numeric-for-loops-over-ipairs-to-iterate-over-arrays)
 
 # 1.5.0 - 2026-07-25
-- Added mute for Psyker staffs explosion (Voidblast + Voidstrike)
+- Added mute for Psyker staffs explosion (Voidblast + Voidstrike) `play_explosion_force_med*`
 - Refactored table creation to be [more efficient](https://dmf-docs.darkti.de/#/Fatshark-%E2%80%90-Lua-Optimizing-Guide?id=specify-the-shape-of-tables-at-creation)
 
 # 1.4.0 - 2026-07-08
