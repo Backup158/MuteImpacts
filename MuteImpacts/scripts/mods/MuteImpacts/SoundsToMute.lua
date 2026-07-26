@@ -28,7 +28,7 @@ local sounds_to_toggle = {
         internal_id = "forcestaff_secondary_fire_explosion",
         sound_event = "wwise/events/weapon/play_explosion_force_med*",
         do_not_disable_by_default = true,
-        tab = "Psyker",
+        tab = "Psyker Explosions",
     },
 	-- --------------------------
     -- Lasbeam Crack
