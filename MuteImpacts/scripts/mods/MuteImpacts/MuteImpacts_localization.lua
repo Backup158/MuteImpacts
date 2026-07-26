@@ -26,6 +26,9 @@ local localizations = {
 		en = "Simple Audio and Audio Plugin not detected! You need at least one of those installed.",
 	},
 	-- -------------------------
+	-- Widget Tab Names
+	-- -------------------------
+	-- -------------------------
 	-- One-off Sounds
 	-- -------------------------
 	forcestaff_primary_fire = {
