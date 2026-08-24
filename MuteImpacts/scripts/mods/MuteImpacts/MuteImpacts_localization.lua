@@ -20,7 +20,7 @@ local localizations = {
 	},
 	mod_description = {
 		-- en = "pipe down skittle squad",
-		en = "Mute impact SFX and such",
+		en = "Mutes impact SFX and other various sounds that annoy me.",
 	},
 	missing_audio_plugin_error = {
 		en = "Simple Audio and Audio Plugin not detected! You need at least one of those installed.",

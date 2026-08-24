@@ -3,7 +3,7 @@ local mod = get_mod("MuteImpacts")
 -- ###################################################################
 -- DATA
 -- ###################################################################
-mod.version = "1.5.1"
+mod.version = "1.6.0"
 mod:info("v"..mod.version.." loaded uwu nya :3")
 
 local audio_framework_to_use
