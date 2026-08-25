@@ -35,7 +35,7 @@ local localizations = {
 	-- Widget Tab Names
 	-- -------------------------
 	mod_option_group_psyker = {
-		en = "Psyker",
+		en = Localize("loc_class_psyker_name"),
 	},
 	mod_option_group_lasbeam_crack = {
 		en = "Lasbeam Crack",
@@ -118,19 +118,24 @@ local localizations = {
 		en = "Unique NPC Menu Entry SFX",
 	},
 	crafting_interact_forge_button = {
-		en = "Shrine of the Omnissiah: Button Press",
+		-- en = "Shrine of the Omnissiah: Button Press",
+		en = string_format("%s: Open Menu", Localize("loc_hub_interaction_crafting")),
 	},
 	crafting_interact_traits = {
-		en = "Shrine of the Omnissiah: Blessings",
+		-- en = "Shrine of the Omnissiah: Blessings",
+		en = string_format("%s: Blessings", Localize("loc_hub_interaction_crafting")),
 	},
 	crafting_interact_perk_reroll = {
-		en = "Shrine of the Omnissiah: Perk Reroll",
+		-- en = "Shrine of the Omnissiah: Perk Reroll",
+		en = string_format("%s: Perk Reroll", Localize("loc_hub_interaction_crafting")),
 	},
 	crafting_interact_upgrade = {
-		en = "Shrine of the Omnissiah: Consecrate Item",
+		-- en = "Shrine of the Omnissiah: Consecrate Item",
+		en = string_format("%s: %s", Localize("loc_hub_interaction_crafting"), Localize("loc_crafting_upgrade_option")),
 	},
 	crafting_interact_empower = {
-		en = "Shrine of the Omnissiah: Empower Item",
+		-- en = "Shrine of the Omnissiah: Empower Item",
+		en = string_format("%s: %s", Localize("loc_hub_interaction_crafting"), Localize("loc_crafting_crafting_title")),
 	},
 	-- -------------
     -- Cough
