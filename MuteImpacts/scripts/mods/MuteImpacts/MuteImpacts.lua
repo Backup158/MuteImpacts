@@ -44,7 +44,7 @@ end
 mod.on_setting_changed = function(setting_id)
     local mute_this = mod:get(setting_id)
 
-    if mute_this then
+    if mute_this and sound_lookup_copy[setting_id] then
         audio_framework_to_use.silence_sounds(sound_lookup_copy[setting_id])
     else
         audio_framework_to_use.unsilence_sounds(sound_lookup_copy[setting_id])
