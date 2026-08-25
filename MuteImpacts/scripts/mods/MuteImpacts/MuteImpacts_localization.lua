@@ -25,6 +25,12 @@ local localizations = {
 	missing_audio_plugin_error = {
 		en = "Simple Audio and Audio Plugin not detected! You need at least one of those installed.",
 	},
+	mod_option_tooltip_show_group = {
+		en = "Show contents of this group. This toggle is only to show/hide the group; actual toggles depend on the individual settings.",
+	},
+	mod_option_tooltip_sound_event_prefix = {
+		en = "Sound event: ",
+	},
 	-- -------------------------
 	-- Widget Tab Names
 	-- -------------------------
@@ -48,6 +54,9 @@ local localizations = {
 	},
 	mod_option_group_ranged_hits = {
 		en = "Ranged Hits",
+	},
+	mod_option_group_misc = {
+		en = "Miscellaneous",
 	},
 	-- -------------------------
 	-- One-off Sounds
