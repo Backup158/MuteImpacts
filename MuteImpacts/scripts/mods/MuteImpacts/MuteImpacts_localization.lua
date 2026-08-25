@@ -28,6 +28,27 @@ local localizations = {
 	-- -------------------------
 	-- Widget Tab Names
 	-- -------------------------
+	mod_option_group_psyker = {
+		en = "Psyker",
+	},
+	mod_option_group_lasbeam_crack = {
+		en = "Lasbeam Crack",
+	},
+	mod_option_group_electrocution = {
+		en = "Electrocution",
+	},
+	mod_option_group_npc_shop_ui = {
+		en = "NPC Shop UI",
+	},
+	mod_option_group_player_voice = {
+		en = "Player Voice",
+	},
+	mod_option_group_melee_hits = {
+		en = "Melee Hits",
+	},
+	mod_option_group_ranged_hits = {
+		en = "Ranged Hits",
+	},
 	-- -------------------------
 	-- One-off Sounds
 	-- -------------------------
