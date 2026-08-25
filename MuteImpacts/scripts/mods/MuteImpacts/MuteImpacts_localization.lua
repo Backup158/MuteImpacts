@@ -233,7 +233,9 @@ for damage_done, damage_done_localization in pairs(localizations_to_reuse.damage
 	for weapon_type, weapon_type_localization in pairs(localizations_to_reuse.melee_weapon_types) do
 		localizations["melee_hits_"..damage_done.."_"..weapon_type] = {
 			-- melee_hits_blunt_no_damage = "Melee Hit: No Damage (Blunt)"
-			en = localizations_to_reuse.melee_hits["en"]..": "..damage_done_localization["en"].." ("..weapon_type_localization["en"]..")"
+			--en = localizations_to_reuse.melee_hits["en"]..": "..damage_done_localization["en"].." ("..weapon_type_localization["en"]..")"
+			-- The above but no "Melee Hits: "
+			en = damage_done_localization["en"].." ("..weapon_type_localization["en"]..")"
 		}
 	end
 	-- -------------------------
@@ -242,7 +244,9 @@ for damage_done, damage_done_localization in pairs(localizations_to_reuse.damage
 	for weapon_type, weapon_type_localization in pairs(localizations_to_reuse.ranged_weapon_types) do
 		localizations["ranged_hits_"..damage_done.."_"..weapon_type] = {
 			-- ranged_hits_laser_no_damage = "Ranged Hit: No Damage (Laser)"
-			en = localizations_to_reuse.ranged_hits["en"]..": "..damage_done_localization["en"].." ("..weapon_type_localization["en"]..")"
+			-- en = localizations_to_reuse.ranged_hits["en"]..": "..damage_done_localization["en"].." ("..weapon_type_localization["en"]..")"
+			-- The above but no "Ranged Hits: "
+			en = damage_done_localization["en"].." ("..weapon_type_localization["en"]..")"
 		}
 	end
 end 
