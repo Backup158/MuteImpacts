@@ -44,6 +44,7 @@ end
 mod.on_setting_changed = function(setting_id)
     local mute_this = mod:get(setting_id)
 
+    -- Sound should be muted (toggled on) and it's actually a sound with an associated sound_event, not just the mod options grouping
     if mute_this and sound_lookup_copy[setting_id] then
         audio_framework_to_use.silence_sounds(sound_lookup_copy[setting_id])
     else
