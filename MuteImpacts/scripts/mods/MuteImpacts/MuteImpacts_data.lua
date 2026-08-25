@@ -18,7 +18,7 @@ local sounds_to_toggle = mod.sounds_to_toggle
 -- 		Groups are created in final_widgets
 --		then widget_group_name_map is string:int pairs associating the group name with where it would go in final_widgets (which is an array)
 -- This unfortunately makes it awkward to pre-declare the table size
-local final_widgets = {} -- Script.new_map( #sounds_to_toggle )
+local final_widgets = Script.new_map( #sounds_to_toggle / 2 ) -- will have empty widgets at the end, but DMF ignores thoses
 local widget_group_name_map = {}
 local final_widgets_iterator = 1
 
