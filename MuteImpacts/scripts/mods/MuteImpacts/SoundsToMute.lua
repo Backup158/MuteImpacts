@@ -32,6 +32,7 @@ local sounds_to_toggle = {
         do_not_disable_by_default = true,
         group_name = "mod_option_group_psyker",
     },
+    -- The little *ttzzzz* in the projectile trail
     {
         internal_id = "forcestaff_primary_fire_woosh_projectile",
         sound_event = "wwise/events/weapon/play_psyker_smite_fire_projectile*",
@@ -49,14 +50,14 @@ local sounds_to_toggle = {
 	-- -------------
     -- Other
 	-- -------------
-    -- Warning Warp
+    -- Warning Warp (50%)
     {
         internal_id = "warp_peril_warning",
         sound_event = "wwise/events/player/play_warp_charge_build_up_warning",
         do_not_disable_by_default = true,
         group_name = "mod_option_group_psyker",
     },
-    -- Critical Warp
+    -- Critical Warp (97%)
     {
         internal_id = "warp_peril_critical",
         sound_event = "wwise/events/player/play_warp_charge_build_up_critical",
