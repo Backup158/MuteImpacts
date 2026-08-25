@@ -76,10 +76,10 @@ local localizations = {
 		-- en = string_format("%s %s %s and %s %s %s", Localize("loc_weapon_pattern_forcestaff_p4_m1"), Localize("loc_weapon_mark_forcestaff_p4_m1"), Localize("loc_weapon_family_forcestaff_p4_m1"), Localize("loc_weapon_pattern_forcestaff_p1_m1"), Localize("loc_weapon_mark_forcestaff_p1_m1"), Localize("loc_weapon_family_forcestaff_p1_m1")),
 	},
 	warp_peril_warning = {
-		en = "Warp Peril - Warning 50% (Low Humming)",
+		en = "Warp Peril - Warning at ~50% (Low Humming)",
 	},
 	warp_peril_critical = {
-		en = "Warp Peril - Critical (Loud *NNNNNH TTTTHHHHHHRRRRR*)",
+		en = "Warp Peril - Critical at 97% (Loud *NNNNNH TTTTHHHHHHRRRRR*)",
 	},
 	-- -------------
     -- Lasgun Shots
