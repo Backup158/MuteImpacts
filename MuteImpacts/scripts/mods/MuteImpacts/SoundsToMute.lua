@@ -14,12 +14,28 @@ local mod = get_mod("MuteImpacts")
 -- ----------------------------------------------------
 local sounds_to_toggle = {
 	-- --------------------------
-    -- Force Staff 
+    -- Psyker
 	-- --------------------------
+	-- -------------
+    -- Force Staff
+	-- -------------
     -- left click
 	{
         internal_id = "forcestaff_primary_fire",
         sound_event = "wwise/events/weapon/play_explosion_force_sml",
+        group_name = "mod_option_group_psyker",
+    },
+    -- The projectile woooosh from left click
+    {
+        internal_id = "forcestaff_primary_fire_woosh",
+        sound_event = "wwise/events/weapon/play_psyker_smite_fire$",
+        do_not_disable_by_default = true,
+        group_name = "mod_option_group_psyker",
+    },
+    {
+        internal_id = "forcestaff_primary_fire_woosh_projectile",
+        sound_event = "wwise/events/weapon/play_psyker_smite_fire_projectile*",
+        do_not_disable_by_default = true,
         group_name = "mod_option_group_psyker",
     },
     -- Foot blasts p1 and Bowling balls p4
@@ -27,6 +43,23 @@ local sounds_to_toggle = {
 	{
         internal_id = "forcestaff_secondary_fire_explosion",
         sound_event = "wwise/events/weapon/play_explosion_force_med*",
+        do_not_disable_by_default = true,
+        group_name = "mod_option_group_psyker",
+    },
+	-- -------------
+    -- Other
+	-- -------------
+    -- Warning Warp
+    {
+        internal_id = "warp_peril_warning",
+        sound_event = "wwise/events/player/play_warp_charge_build_up_warning",
+        do_not_disable_by_default = true,
+        group_name = "mod_option_group_psyker",
+    },
+    -- Critical Warp
+    {
+        internal_id = "warp_peril_critical",
+        sound_event = "wwise/events/player/play_warp_charge_build_up_critical",
         do_not_disable_by_default = true,
         group_name = "mod_option_group_psyker",
     },
