@@ -1,5 +1,11 @@
 # 1.6.0 - 2026-08-25
-- Restructured Mod Options to have groups
+- Added new sounds
+    - Force Staff Primary - the actual shooting sound and the light buzz of the projectile
+    - Warp peril warnings
+- Restructured Mod Options
+    - Options are categorized by theme
+    - Group labels are toggleble to hide sub-options (requires DMF 26.08.x+)
+    - Updated some options to localize from the game as a stopgap for translation
 - Refactored [array access](https://dmf-docs.darkti.de/#/Fatshark-%E2%80%90-Lua-Optimizing-Guide?id=prefer-numeric-for-loops-over-ipairs-to-iterate-over-arrays)
 - Added info.json metadata support
 
