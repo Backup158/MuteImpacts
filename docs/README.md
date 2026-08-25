@@ -34,20 +34,21 @@ Most sounds are silenced by default, and can be unsilenced in the Mod Options. O
 - Player coughing from Pox Gas
 
 # Load Order
-**DarktideLocalServer**
+If using Audio
+> **DarktideLocalServer**  \
+> **Audio**  \
+> **MuteImpacts**  \
+> *whatever other mods*
 
-**Audio**
-
-*whatever other Audio mods*
-
-**MuteImpacts**
-
-*whatever other Audio mods*
-
-*whatever other mods*
+If using SimpleAudio
+> **SimpleAudio**  \
+> **MuteImpacts**  \
+> *whatever other mods*
 
 
 # FAQ
-**Why does this need to use the Audio Plugin?**
+**Why does this need to use the Audio Plugin (or SimpleAudio)?**
 
-It's the simplest way to do it. AFAIK editing the weapon sounds directly (if that's even possible since they're in the weapon files with stats) would lead to autodefenestration. Perhaps there's a way to do it like ZipIt by finding the actual audio playing functions but I don't have much time to be digging that much nowadays.
+It's the simplest way to do it. AFAIK having to edit each of the weapon sounds directly (if that's even possible since they're in the weapon files with stats) would lead to autodefenestration. Perhaps there's a way to do it like ZipIt by finding the actual audio playing functions but I don't have much time to be digging that much nowadays.
+
+Now, SimpleAudio has such a low performance impact that I have no problem always running it.
