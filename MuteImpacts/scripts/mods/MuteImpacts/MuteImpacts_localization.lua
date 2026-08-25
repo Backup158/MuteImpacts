@@ -62,12 +62,24 @@ local localizations = {
 	-- One-off Sounds
 	-- -------------------------
 	forcestaff_primary_fire = {
-		en = "Force Staff Primary Fire",
+		en = "Force Staff Primary Fire - Impact",
+	},
+	forcestaff_primary_fire_woosh = {
+		en = "Force Staff Primary Fire - Initial Firing *PPPHHOOOO*",
+	},
+	forcestaff_primary_fire_woosh_projectile = {
+		en = "Force Staff Primary Fire - Projectile Flight Trail (Subtle *tssszzz*)",
 	},
 	forcestaff_secondary_fire_explosion = {
 		-- en = "Force Staff Secondary Fire Explosion",
 		en = string_format("%s/%s Secondary Fire Explosion", Localize("loc_weapon_family_forcestaff_p4_m1"), Localize("loc_weapon_family_forcestaff_p1_m1")),
 		-- en = string_format("%s %s %s and %s %s %s", Localize("loc_weapon_pattern_forcestaff_p4_m1"), Localize("loc_weapon_mark_forcestaff_p4_m1"), Localize("loc_weapon_family_forcestaff_p4_m1"), Localize("loc_weapon_pattern_forcestaff_p1_m1"), Localize("loc_weapon_mark_forcestaff_p1_m1"), Localize("loc_weapon_family_forcestaff_p1_m1")),
+	},
+	warp_peril_warning = {
+		en = "Warp Peril - Warning 50% (Low Humming)",
+	},
+	warp_peril_critical = {
+		en = "Warp Peril - Critical (Loud *NNNNNH TTTTHHHHHHRRRRR*)",
 	},
 	-- -------------
     -- Lasgun Shots
