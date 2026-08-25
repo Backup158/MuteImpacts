@@ -1,4 +1,4 @@
-# 1.6.0 - UNRELEASED
+# 1.6.0 - 2026-08-25
 - Restructured Mod Options to have groups
 - Refactored [array access](https://dmf-docs.darkti.de/#/Fatshark-%E2%80%90-Lua-Optimizing-Guide?id=prefer-numeric-for-loops-over-ipairs-to-iterate-over-arrays)
 - Added info.json metadata support
