@@ -304,7 +304,7 @@ mod.sounds_to_toggle = sounds_to_toggle
 -- ----------------------------------------------------
 local sound_lookup_copy = Script.new_map( #sounds_to_toggle )
 for i = 1, #sounds_to_toggle do
-    local sound_group_namele = sounds_to_toggle[i]
-    sound_lookup_copy[sound_group_namele.internal_id] = sound_group_namele.sound_event
+    local table_containing_sound = sounds_to_toggle[i]
+    sound_lookup_copy[table_containing_sound.internal_id] = table_containing_sound.sound_event
 end
 mod.sound_lookup_copy = sound_lookup_copy
