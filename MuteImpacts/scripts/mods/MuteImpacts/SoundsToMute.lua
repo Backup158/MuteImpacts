@@ -47,6 +47,20 @@ local sounds_to_toggle = {
         do_not_disable_by_default = true,
         group_name = "mod_option_group_psyker",
     },
+    -- Purgatus left click
+    --  It has the sound in play and stop
+	{
+        internal_id = "forcestaff_flames_primary_fire_play",
+        sound_event = "wwise/events/weapon/play_forcestaff_warp_fire_loop_3d.*",
+        do_not_disable_by_default = true,
+        group_name = "mod_option_group_psyker",
+    },
+	{
+        internal_id = "forcestaff_flames_primary_fire_stop",
+        sound_event = "wwise/events/weapon/stop_forcestaff_warp_fire_loop_3d.*",
+        do_not_disable_by_default = true,
+        group_name = "mod_option_group_psyker",
+    },
 	-- -------------
     -- Other
 	-- -------------
@@ -61,6 +75,12 @@ local sounds_to_toggle = {
     {
         internal_id = "warp_peril_critical",
         sound_event = "wwise/events/player/play_warp_charge_build_up_critical",
+        do_not_disable_by_default = true,
+        group_name = "mod_option_group_psyker",
+    },
+	{
+        internal_id = "psyker_smite_charge",
+        sound_event = "wwise/events/weapon/play_psyker_smite_charge",
         do_not_disable_by_default = true,
         group_name = "mod_option_group_psyker",
     },

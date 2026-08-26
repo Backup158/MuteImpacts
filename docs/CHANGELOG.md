@@ -1,6 +1,7 @@
 # 1.7.0 - XXX
 - Added new sounds
-    - Purgatus Staff left click
+    - Purgatus Staff left click (start and stop)
+    - Psyker "Smite" (Force Sword Blocking)
     - servo skull lasbeam?
     - nearby bolter and stubber shots
 - Fixed missing localization for empower item

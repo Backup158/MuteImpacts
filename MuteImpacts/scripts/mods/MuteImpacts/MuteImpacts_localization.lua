@@ -75,11 +75,20 @@ local localizations = {
 		en = string_format("%s/%s Secondary Fire Explosion", Localize("loc_weapon_family_forcestaff_p4_m1"), Localize("loc_weapon_family_forcestaff_p1_m1")),
 		-- en = string_format("%s %s %s and %s %s %s", Localize("loc_weapon_pattern_forcestaff_p4_m1"), Localize("loc_weapon_mark_forcestaff_p4_m1"), Localize("loc_weapon_family_forcestaff_p4_m1"), Localize("loc_weapon_pattern_forcestaff_p1_m1"), Localize("loc_weapon_mark_forcestaff_p1_m1"), Localize("loc_weapon_family_forcestaff_p1_m1")),
 	},
+	forcestaff_flames_primary_fire_play = {
+		en = string_format("%s Primary Fire - Start", Localize("loc_weapon_family_forcestaff_p2_m1")),
+	},
+	forcestaff_flames_primary_fire_stop = {
+		en = string_format("%s Primary Fire - Stop", Localize("loc_weapon_family_forcestaff_p2_m1")),
+	},
 	warp_peril_warning = {
 		en = "Warp Peril - Warning at ~50%% (Low Humming)",
 	},
 	warp_peril_critical = {
 		en = "Warp Peril - Critical at 97%% (Loud *NNNNNH TTTTHHHHHHRRRRR*)",
+	},
+	psyker_smite_charge = {
+		en = "Psychic Charge - Force Sword Blocking",
 	},
 	-- -------------
     -- Lasgun Shots
