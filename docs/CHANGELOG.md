@@ -1,3 +1,10 @@
+# 1.7.0 - XXX
+- Added new sounds
+    - Purgatus Staff left click
+    - servo skull lasbeam?
+    - nearby bolter and stubber shots
+- Fixed missing localization for empower item
+
 # 1.6.0 - 2026-08-25
 - Added new sounds
     - Force Staff Primary - the actual shooting sound and the light buzz of the projectile
