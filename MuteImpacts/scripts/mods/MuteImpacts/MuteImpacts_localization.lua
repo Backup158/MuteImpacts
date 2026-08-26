@@ -135,7 +135,7 @@ local localizations = {
 	},
 	crafting_interact_empower = {
 		-- en = "Shrine of the Omnissiah: Empower Item",
-		en = string_format("%s: %s", Localize("loc_hub_interaction_crafting"), Localize("loc_crafting_crafting_title")),
+		en = string_format("%s: %s", Localize("loc_hub_interaction_crafting"), Localize("loc_expertise_crafting_title")),
 	},
 	-- -------------
     -- Cough
