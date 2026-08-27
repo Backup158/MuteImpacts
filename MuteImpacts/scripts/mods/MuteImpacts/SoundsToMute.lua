@@ -85,6 +85,21 @@ local sounds_to_toggle = {
         group_name = "mod_option_group_psyker_misc",
     },
 	-- --------------------------
+    -- Skitussy
+	-- --------------------------
+	{
+        internal_id = "skitussy_skull_charge",
+        sound_event = "wwise/events/weapon/play_servoskull_weapon_lasgun_charge",
+        do_not_disable_by_default = true,
+        group_name = "mod_option_group_skitussy",
+    },
+	{
+        internal_id = "skitussy_skull_fire",
+        sound_event = "wwise/events/weapon/play_servoskull_weapon_lasgun_fire",
+        do_not_disable_by_default = true,
+        group_name = "mod_option_group_skitussy",
+    },
+	-- --------------------------
     -- Lasbeam Crack
 	-- --------------------------
     {

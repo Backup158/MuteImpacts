@@ -40,6 +40,9 @@ local localizations = {
 	mod_option_group_psyker_misc = {
 		en = Localize("loc_class_psyker_name"),
 	},
+	mod_option_group_skitussy = {
+		en = Localize("loc_class_cryptic_name"),
+	},
 	mod_option_group_lasbeam_crack = {
 		en = "Lasbeam Crack",
 	},
@@ -91,7 +94,16 @@ local localizations = {
 		en = "Warp Peril - Critical at 97%% (Loud *NNNNNH TTTTHHHHHHRRRRR*)",
 	},
 	psyker_smite_charge = {
-		en = "Psychic Charge - Force Sword Blocking and Background Sound of Brain Burst/Rupture (*whrrrrssssttttttttzzzzz* not the *wubwubwub*)",
+		en = "Force Sword Block and Brain Burst (*whrrrrsttttzzz* not *wubwub*)",
+	},
+	-- -------------
+    -- Skitussy
+	-- -------------
+	skitussy_skull_charge = {
+		en = "Servo Skull Laspistol - Charging",
+	},
+	skitussy_skull_fire = {
+		en = "Servo Skull Laspistol - Shooting (Not including Lasbeam Crack (Player))",
 	},
 	-- -------------
     -- Lasgun Shots

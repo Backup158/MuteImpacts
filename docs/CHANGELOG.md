@@ -2,8 +2,8 @@
 - Added new sounds
     - Purgatus Staff left click (start and stop)
     - Psyker "Smite" (Force Sword Blocking)
-    - servo skull lasbeam?
-    - nearby bolter and stubber shots
+    - Servo Skull lasbeam (chargeup and firing)
+    - nearby bolter and stubber shots?
 - Fixed missing localization for empower item
 
 # 1.6.0 - 2026-08-25
