@@ -3,13 +3,21 @@ Uses the Simple Audio or the Audio plugin to mute the listed sounds.
 
 # Sound Options
 Most sounds are silenced by default, and can be unsilenced in the Mod Options. Ones left alone by default are marked with a [*]
-- Psyker
-    - Force Staff - Primary Fire - Impact
-    - Force Staff - Primary Fire - Initial Woosh [*]
-    - Force Staff - Primary Fire - Projectile trail fizz [*]
-    - Force Staff - Voidstrike/Voidblast alt fire [*]
+- Psyker - Force Staff
+    - Primary Fire - Impact
+    - Primary Fire - Initial Woosh [*]
+    - Primary Fire - Projectile trail fizz [*]
+    - Voidstrike/Voidblast Staff alt fire blast [*]
+    - Inferno Staff shared burn [*]
+    - Inferno Staff left click stop [*]
+    - Inferno Staff right click additional [*]
+- Psyker (Other)
     - Warp Peril - Warning (50%) [*]
     - Warp Peril - Critical (97%) [*]
+    - Force Sword Block and Brain Burst buzzing
+- Skitarii
+    - Servo Skull charge up [*]
+    - Servo Skull shoot [*]
 - Cracking from lasguns shooting nearby (with options for player and enemy shots)
 - Arbites Shock Maul swing effects
     - Shocking hit
