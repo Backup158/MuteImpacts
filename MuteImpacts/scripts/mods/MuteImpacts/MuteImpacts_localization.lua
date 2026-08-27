@@ -34,7 +34,10 @@ local localizations = {
 	-- -------------------------
 	-- Widget Tab Names
 	-- -------------------------
-	mod_option_group_psyker = {
+	mod_option_group_psyker_staff = {
+		en = string_format("%s - Force Staves", Localize("loc_class_psyker_name")),
+	},
+	mod_option_group_psyker_misc = {
 		en = Localize("loc_class_psyker_name"),
 	},
 	mod_option_group_lasbeam_crack = {

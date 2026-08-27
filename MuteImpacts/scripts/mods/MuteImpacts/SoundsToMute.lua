@@ -23,21 +23,21 @@ local sounds_to_toggle = {
 	{
         internal_id = "forcestaff_primary_fire",
         sound_event = "wwise/events/weapon/play_explosion_force_sml",
-        group_name = "mod_option_group_psyker",
+        group_name = "mod_option_group_psyker_staff",
     },
     -- The projectile woooosh from left click
     {
         internal_id = "forcestaff_primary_fire_woosh",
         sound_event = "wwise/events/weapon/play_psyker_smite_fire$",
         do_not_disable_by_default = true,
-        group_name = "mod_option_group_psyker",
+        group_name = "mod_option_group_psyker_staff",
     },
     -- The little *ttzzzz* in the projectile trail
     {
         internal_id = "forcestaff_primary_fire_woosh_projectile",
         sound_event = "wwise/events/weapon/play_psyker_smite_fire_projectile*",
         do_not_disable_by_default = true,
-        group_name = "mod_option_group_psyker",
+        group_name = "mod_option_group_psyker_staff",
     },
     -- Foot blasts p1 and Bowling balls p4
     --  catches itself and husk
@@ -45,7 +45,7 @@ local sounds_to_toggle = {
         internal_id = "forcestaff_secondary_fire_explosion",
         sound_event = "wwise/events/weapon/play_explosion_force_med*",
         do_not_disable_by_default = true,
-        group_name = "mod_option_group_psyker",
+        group_name = "mod_option_group_psyker_staff",
     },
     -- Purgatus left click
     --  It has the sound in play and stop
@@ -53,13 +53,13 @@ local sounds_to_toggle = {
         internal_id = "forcestaff_flames_primary_fire_play",
         sound_event = "wwise/events/weapon/play_forcestaff_warp_fire_loop_3d.*",
         do_not_disable_by_default = true,
-        group_name = "mod_option_group_psyker",
+        group_name = "mod_option_group_psyker_staff",
     },
 	{
         internal_id = "forcestaff_flames_primary_fire_stop",
         sound_event = "wwise/events/weapon/stop_forcestaff_warp_fire_loop_3d.*",
         do_not_disable_by_default = true,
-        group_name = "mod_option_group_psyker",
+        group_name = "mod_option_group_psyker_staff",
     },
 	-- -------------
     -- Other
@@ -69,20 +69,20 @@ local sounds_to_toggle = {
         internal_id = "warp_peril_warning",
         sound_event = "wwise/events/player/play_warp_charge_build_up_warning",
         do_not_disable_by_default = true,
-        group_name = "mod_option_group_psyker",
+        group_name = "mod_option_group_psyker_misc",
     },
     -- Critical Warp (97%)
     {
         internal_id = "warp_peril_critical",
         sound_event = "wwise/events/player/play_warp_charge_build_up_critical",
         do_not_disable_by_default = true,
-        group_name = "mod_option_group_psyker",
+        group_name = "mod_option_group_psyker_misc",
     },
 	{
         internal_id = "psyker_smite_charge",
         sound_event = "wwise/events/weapon/play_psyker_smite_charge",
         do_not_disable_by_default = true,
-        group_name = "mod_option_group_psyker",
+        group_name = "mod_option_group_psyker_misc",
     },
 	-- --------------------------
     -- Lasbeam Crack
