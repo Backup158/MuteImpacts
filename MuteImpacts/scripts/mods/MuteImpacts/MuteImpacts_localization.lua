@@ -88,7 +88,7 @@ local localizations = {
 		en = "Warp Peril - Critical at 97%% (Loud *NNNNNH TTTTHHHHHHRRRRR*)",
 	},
 	psyker_smite_charge = {
-		en = "Psychic Charge - Force Sword Blocking",
+		en = "Psychic Charge - Force Sword Blocking and Background Sound of Brain Burst/Rupture (*whrrrrssssttttttttzzzzz* not the *wubwubwub*)",
 	},
 	-- -------------
     -- Lasgun Shots
