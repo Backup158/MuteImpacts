@@ -1,6 +1,7 @@
 # 1.7.0 - XXX
 - Added new sounds
     - Purgatus Staff left click (start and stop)
+    - Purgatus Staff right click
     - Psyker "Smite" (Force Sword Blocking)
     - Servo Skull lasbeam (chargeup and firing)
     - nearby bolter and stubber shots?

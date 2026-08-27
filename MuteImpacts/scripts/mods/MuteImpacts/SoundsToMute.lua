@@ -61,6 +61,14 @@ local sounds_to_toggle = {
         do_not_disable_by_default = true,
         group_name = "mod_option_group_psyker_staff",
     },
+    -- Purgatus right click
+    --  main sound is play_forcestaff_warp_fire_loop_3d
+	{
+        internal_id = "forcestaff_flames_secondary_fire",
+        sound_event = "wwise/events/weapon/play_forcestaff_warp_fire$",
+        do_not_disable_by_default = true,
+        group_name = "mod_option_group_psyker_staff",
+    },
 	-- -------------
     -- Other
 	-- -------------
@@ -78,10 +86,11 @@ local sounds_to_toggle = {
         do_not_disable_by_default = true,
         group_name = "mod_option_group_psyker_misc",
     },
+    -- Force Sword Blocking and Brain Burst tzzztztztzzz
 	{
         internal_id = "psyker_smite_charge",
         sound_event = "wwise/events/weapon/play_psyker_smite_charge",
-        do_not_disable_by_default = true,
+        -- do_not_disable_by_default = true,
         group_name = "mod_option_group_psyker_misc",
     },
 	-- --------------------------

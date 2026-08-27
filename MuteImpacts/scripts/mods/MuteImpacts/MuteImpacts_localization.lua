@@ -67,6 +67,12 @@ local localizations = {
 	-- -------------------------
 	-- One-off Sounds
 	-- -------------------------
+	-- -------------
+	-- Pskyer
+	-- -------------
+	-- -------
+	-- Psyker - Force Staff
+	-- -------
 	forcestaff_primary_fire = {
 		en = "Force Staff Primary Fire - Impact",
 	},
@@ -82,11 +88,17 @@ local localizations = {
 		-- en = string_format("%s %s %s and %s %s %s", Localize("loc_weapon_pattern_forcestaff_p4_m1"), Localize("loc_weapon_mark_forcestaff_p4_m1"), Localize("loc_weapon_family_forcestaff_p4_m1"), Localize("loc_weapon_pattern_forcestaff_p1_m1"), Localize("loc_weapon_mark_forcestaff_p1_m1"), Localize("loc_weapon_family_forcestaff_p1_m1")),
 	},
 	forcestaff_flames_primary_fire_play = {
-		en = string_format("%s Primary Fire - Start", Localize("loc_weapon_family_forcestaff_p2_m1")),
+		en = string_format("%s Primary and Secondary Fire *KHWOOOOOO*", Localize("loc_weapon_family_forcestaff_p2_m1")),
 	},
 	forcestaff_flames_primary_fire_stop = {
 		en = string_format("%s Primary Fire - Stop", Localize("loc_weapon_family_forcestaff_p2_m1")),
 	},
+	forcestaff_flames_secondary_fire = {
+		en = string_format("%s Secondary Fire Additional", Localize("loc_weapon_family_forcestaff_p2_m1")),
+	},
+	-- -------
+	-- Psyker - Other
+	-- -------
 	warp_peril_warning = {
 		en = "Warp Peril - Warning at ~50%% (Low Humming)",
 	},
