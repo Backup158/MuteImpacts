@@ -1,3 +1,7 @@
+# 1.8.0 - XXX
+- Added new sounds
+    - nearby bolter and stubber shots?
+
 # 1.7.0 - 2026-08-26
 - Added new sounds
     - Purgatus Staff left click (start and stop) - Not on by default
