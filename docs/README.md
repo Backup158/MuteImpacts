@@ -18,6 +18,8 @@ Most sounds are silenced by default, and can be unsilenced in the Mod Options. O
 - Skitarii
     - Servo Skull charge up [*]
     - Servo Skull shoot [*]
+    - Ability discharge bzzt [*]
+    - Voltaic Emitter buzzing after using 2+ charges (Start and stop) [*]
 - Cracking from lasguns shooting nearby (with options for player and enemy shots)
 - Arbites Shock Maul swing effects
     - Shocking hit

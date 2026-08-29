@@ -1,6 +1,7 @@
-# 1.8.0 - XXX
+# 1.8.0 - 2026-08-29
 - Added new sounds
-    - nearby bolter and stubber shots?
+    - Skitarii ability discharge bzzt - Not on by default
+    - Skitarii Voltaic Emitter buzzing after using 2+ charges (Start and stop) - Not on by default
 
 # 1.7.0 - 2026-08-26
 - Added new sounds

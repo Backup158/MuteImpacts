@@ -108,6 +108,26 @@ local sounds_to_toggle = {
         do_not_disable_by_default = true,
         group_name = "mod_option_group_skitussy",
     },
+    -- Ability use FFFPSFPS
+	{
+        internal_id = "skitussy_discharge",
+        sound_event = "wwise/events/player/play_player_ability_discharge",
+        do_not_disable_by_default = true,
+        group_name = "mod_option_group_skitussy",
+    },
+    -- Voltaic Discharge bzzzzt with 2+ capacitance
+	{
+        internal_id = "skitussy_voltaic_loop_start",
+        sound_event = "wwise/events/player/play_ability_cryptic_voltaic_buff_loop",
+        do_not_disable_by_default = true,
+        group_name = "mod_option_group_skitussy",
+    },
+	{
+        internal_id = "skitussy_voltaic_loop_stop",
+        sound_event = "wwise/events/player/stop_ability_cryptic_voltaic_buff_loop",
+        do_not_disable_by_default = true,
+        group_name = "mod_option_group_skitussy",
+    },
 	-- --------------------------
     -- Lasbeam Crack
 	-- --------------------------

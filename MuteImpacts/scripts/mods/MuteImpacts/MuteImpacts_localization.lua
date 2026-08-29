@@ -117,6 +117,15 @@ local localizations = {
 	skitussy_skull_fire = {
 		en = "Servo Skull Laspistol - Shooting (Not including Lasbeam Crack (Player))",
 	},
+	skitussy_discharge = {
+		en = "Ability Discharge",
+	},
+	skitussy_voltaic_loop_start = {
+		en = "Voltaic Emitter Buzzing with 2+ Capacitance (Start)",
+	},
+	skitussy_voltaic_loop_stop = {
+		en = "Voltaic Emitter Buzzing with 2+ Capacitance (Stop)",
+	},
 	-- -------------
     -- Lasgun Shots
 	-- -------------
