@@ -213,8 +213,9 @@ local sounds_to_toggle = {
         group_name = "mod_option_group_npc_shop_ui",
     },
 	-- --------------------------
-    -- Player Pox Gas Coughs
+    -- Player Voice
 	-- --------------------------
+    -- Pox Gas Coughs
     {
         internal_id = "player_gas_cough",
         -- sfx on "enter" and "exit"
