@@ -1,3 +1,14 @@
+# 1.9.0 - 2026-08-30
+## Added
+- nearby bolter and stubber shots?
+- Hound subgroup
+    - Arbites dog footstep [*]
+    - Arbites dog scuff [*]
+    - Arbites dog attack [*]
+    - Arbites dog bite [*]
+    - Enemy hound breaths [*]
+    - Enemy hound barks [*]
+
 # 1.8.0 - 2026-08-29
 - Added new sounds
     - Skitarii ability discharge bzzt - Not on by default

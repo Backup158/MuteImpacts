@@ -43,6 +43,9 @@ local localizations = {
 	mod_option_group_skitussy = {
 		en = Localize("loc_class_cryptic_name"),
 	},
+	mod_option_group_dog = {
+		en = "Hounds",
+	},
 	mod_option_group_lasbeam_crack = {
 		en = "Lasbeam Crack",
 	},
@@ -125,6 +128,27 @@ local localizations = {
 	},
 	skitussy_voltaic_loop_stop = {
 		en = "Voltaic Emitter Buzzing with 2+ Capacitance (Stop)",
+	},
+	-- -------------
+    -- Hound
+	-- -------------
+	adamant_dog_footstep = {
+		en = "Cyber-mastiff Footsteps",
+	},
+	adamant_dog_scuff = {
+		en = "Cyber-mastiff Foot Scuffs",
+	},
+	adamant_dog_attack = {
+		en = "Cyber-mastiff Attack",
+	},
+	adamant_dog_bite = {
+		en = "Cyber-mastiff Biting",
+	},
+	enemy_hound_breathe = {
+		en = "Enemy Hound Breaths",
+	},
+	enemy_hound_bark = {
+		en = "Enemy Hound Barks",
 	},
 	-- -------------
     -- Lasgun Shots
