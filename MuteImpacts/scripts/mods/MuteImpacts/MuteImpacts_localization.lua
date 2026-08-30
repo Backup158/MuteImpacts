@@ -141,6 +141,9 @@ local localizations = {
 	adamant_dog_attack = {
 		en = "Cyber-mastiff Attack",
 	},
+	adamant_dog_bark = {
+		en = "Cyber-mastiff Barks",
+	},
 	adamant_dog_bite = {
 		en = "Cyber-mastiff Biting",
 	},

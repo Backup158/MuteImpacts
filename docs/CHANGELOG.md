@@ -5,6 +5,7 @@
     - Arbites dog footstep [*]
     - Arbites dog scuff [*]
     - Arbites dog attack [*]
+    - Arbites dog bark [*]
     - Arbites dog bite [*]
     - Enemy hound breaths [*]
     - Enemy hound barks [*]

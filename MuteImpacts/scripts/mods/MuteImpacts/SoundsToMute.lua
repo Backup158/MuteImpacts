@@ -150,6 +150,12 @@ local sounds_to_toggle = {
         group_name = "mod_option_group_dog",
     },
 	{
+        internal_id = "adamant_dog_bark",
+        sound_event = "wwise/events/player/play_adamant_dog_vce_bark.*",
+        do_not_disable_by_default = true,
+        group_name = "mod_option_group_dog",
+    },
+	{
         internal_id = "adamant_dog_bite",
         sound_event = "wwise/events/weapon/play_companion_bite.*",
         do_not_disable_by_default = true,
