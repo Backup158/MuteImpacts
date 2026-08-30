@@ -128,6 +128,19 @@ local sounds_to_toggle = {
         do_not_disable_by_default = true,
         group_name = "mod_option_group_skitussy",
     },
+    -- Integrated Refractor Field
+	{
+        internal_id = "skitussy_bubble_wrap_start",
+        sound_event = "wwise/events/player/start_ability_active_cryptic_forcefield",
+        do_not_disable_by_default = true,
+        group_name = "mod_option_group_skitussy",
+    },
+	{
+        internal_id = "skitussy_bubble_wrap_stop",
+        sound_event = "wwise/events/player/stop_ability_active_cryptic_forcefield",
+        do_not_disable_by_default = true,
+        group_name = "mod_option_group_skitussy",
+    },
 	-- --------------------------
     -- Dog
 	-- --------------------------

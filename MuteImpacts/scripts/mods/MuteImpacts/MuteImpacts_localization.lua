@@ -129,6 +129,12 @@ local localizations = {
 	skitussy_voltaic_loop_stop = {
 		en = "Voltaic Emitter Buzzing with 2+ Capacitance (Stop)",
 	},
+	skitussy_bubble_wrap_start = {
+		en = string_format("%s - Start", Localize("loc_talent_cryptic_grenade_ability_force_field")),
+	},
+	skitussy_bubble_wrap_stop = {
+		en = string_format("%s - Stop", Localize("loc_talent_cryptic_grenade_ability_force_field")),
+	},
 	-- -------------
     -- Hound
 	-- -------------

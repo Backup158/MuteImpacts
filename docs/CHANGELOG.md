@@ -1,3 +1,9 @@
+# 1.10.0 - 2026-08-30
+## Added
+- Skitarii
+    - Integrated Refraction Emitter (Start) [*]
+    - Integrated Refraction Emitter (Stop) [*]
+
 # 1.9.0 - 2026-08-30
 ## Added
 - Hound subgroup

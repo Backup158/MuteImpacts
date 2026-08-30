@@ -20,6 +20,8 @@ Most sounds are silenced by default, and can be unsilenced in the Mod Options. S
 - Servo Skull shoot [*]
 - Ability Discharge bzzt [*]
 - Voltaic Emitter buzzing after using 2+ charges (Start and stop) [*]
+- Integrated Refraction Emitter (Start) [*]
+- Integrated Refraction Emitter (Stop) [*]
 ## Nearby Ranged Shots
 - Nearby Lasgun Shot Crack (Player)
 - Nearby Lasgun Shot Crack (Enemy Shooters)
