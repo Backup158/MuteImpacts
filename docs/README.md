@@ -63,10 +63,11 @@ If using SimpleAudio
 > **MuteImpacts**  \
 > *whatever other mods*
 
-
 # FAQ
 **Why does this need to use the Audio Plugin (or SimpleAudio)?**
 
 It's the simplest way to do it. AFAIK having to edit each of the weapon sounds directly (if that's even possible since they're in the weapon files with stats) would lead to autodefenestration. Perhaps there's a way to do it like ZipIt by finding the actual audio playing functions but I don't have much time to be digging that much nowadays.
+
+In any case, this structure makes it easy to add new sounds. You can even do it yourself by adding to `SoundsToMute.lua`.
 
 Now, SimpleAudio has such a low performance impact that I have no problem always running it.
