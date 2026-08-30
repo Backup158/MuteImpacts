@@ -28,7 +28,7 @@ Most sounds are silenced by default, and can be unsilenced in the Mod Options. O
 - Plasma Flyby (Shared with Skitarii Weapons) [*]
 ## Electrocution
 - Lightning hit and miss
-## Shock Maul Swing effects
+## Shock Maul Swing Effects
 - Arbites Shock Maul Electric Swing on Miss
 - Arbites Shock Maul Shocking Hit
 ## Melee Hits
@@ -38,7 +38,7 @@ Most sounds are silenced by default, and can be unsilenced in the Mod Options. O
 - Reduced damage with axe hits (Axes and Shovels)
 - Axe light attacks [*]
 - Axe heavy attacks [*]
-## NPC UI sounds
+## NPC UI
 - Entering NPC menu
 - Hadron trait edits
 - Hadron blessing edits
