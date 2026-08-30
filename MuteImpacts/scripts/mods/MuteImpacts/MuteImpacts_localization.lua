@@ -159,6 +159,12 @@ local localizations = {
 	hound_footstep = {
 		en = "Hound Footstep",
 	},
+	enemy_hound_wave_stinger = {
+		en = "Enemy Hound Wave Stinger",
+	},
+	enemy_hound_group = {
+		en = "Enemy Hound Group",
+	},
 	-- -------------
     -- Lasgun Shots
 	-- -------------

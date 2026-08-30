@@ -10,6 +10,8 @@
     - Enemy hound breaths [*]
     - Enemy hound barks [*]
     - Enemy hound footstep [*]
+    - Enemy hound wave stinger [*]
+    - Enemy hound group [*]
 
 # 1.8.0 - 2026-08-29
 - Added new sounds

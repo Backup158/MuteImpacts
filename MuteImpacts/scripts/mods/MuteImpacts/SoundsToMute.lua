@@ -185,6 +185,18 @@ local sounds_to_toggle = {
         do_not_disable_by_default = true,
         group_name = "mod_option_group_dog",
     },
+	{
+        internal_id = "enemy_hound_wave_stinger",
+        sound_event = "wwise/events/minions/play_chaos_hound_spawn_stinger_circumstance",
+        do_not_disable_by_default = true,
+        group_name = "mod_option_group_dog",
+    },
+	{
+        internal_id = "enemy_hound_group",
+        sound_event = "wwise/events/minions/.*_chaos_hound_group_sound",
+        do_not_disable_by_default = true,
+        group_name = "mod_option_group_dog",
+    },
 	-- --------------------------
     -- Lasbeam Crack
 	-- --------------------------
