@@ -139,10 +139,10 @@ local localizations = {
 		en = "Cyber-mastiff Foot Scuff",
 	},
 	adamant_dog_attack = {
-		en = "Cyber-mastiff Attack",
+		en = "Cyber-mastiff Attack Pounce",
 	},
 	adamant_dog_bark = {
-		en = "Cyber-mastiff Bark",
+		en = "Cyber-mastiff Attack Bark",
 	},
 	adamant_dog_bite = {
 		en = "Cyber-mastiff Bite",
