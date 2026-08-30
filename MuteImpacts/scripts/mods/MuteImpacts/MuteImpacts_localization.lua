@@ -133,28 +133,31 @@ local localizations = {
     -- Hound
 	-- -------------
 	adamant_dog_footstep = {
-		en = "Cyber-mastiff Footsteps",
+		en = "Cyber-mastiff Footstep",
 	},
 	adamant_dog_scuff = {
-		en = "Cyber-mastiff Foot Scuffs",
+		en = "Cyber-mastiff Foot Scuff",
 	},
 	adamant_dog_attack = {
 		en = "Cyber-mastiff Attack",
 	},
 	adamant_dog_bark = {
-		en = "Cyber-mastiff Barks",
+		en = "Cyber-mastiff Bark",
 	},
 	adamant_dog_bite = {
-		en = "Cyber-mastiff Biting",
+		en = "Cyber-mastiff Bite",
 	},
-	enemy_hound_breathe = {
-		en = "Enemy Hound Breaths",
+	hound_breathe = {
+		en = "Hound Breath",
 	},
-	enemy_hound_bark = {
-		en = "Enemy Hound Barks",
+	hound_bark = {
+		en = "Hound Bark",
 	},
-	enemy_hound_footstep = {
-		en = "Enemy Hound Footsteps",
+	hound_growl = {
+		en = "Hound Growl",
+	},
+	hound_footstep = {
+		en = "Hound Footstep",
 	},
 	-- -------------
     -- Lasgun Shots

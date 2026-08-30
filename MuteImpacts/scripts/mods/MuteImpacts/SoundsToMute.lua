@@ -162,19 +162,25 @@ local sounds_to_toggle = {
         group_name = "mod_option_group_dog",
     },
 	{
-        internal_id = "enemy_hound_breathe",
+        internal_id = "hound_breathe",
         sound_event = "wwise/events/minions/play_.*_hound.*vce_breath",
         do_not_disable_by_default = true,
         group_name = "mod_option_group_dog",
     },
 	{
-        internal_id = "enemy_hound_bark",
+        internal_id = "hound_bark",
         sound_event = "wwise/events/minions/play_.*_hound.*vce_bark",
         do_not_disable_by_default = true,
         group_name = "mod_option_group_dog",
     },
 	{
-        internal_id = "enemy_hound_footstep",
+        internal_id = "hound_growl",
+        sound_event = "wwise/events/minions/play_.*_hound.*vce_growl",
+        do_not_disable_by_default = true,
+        group_name = "mod_option_group_dog",
+    },
+	{
+        internal_id = "hound_footstep",
         sound_event = "wwise/events/minions/play_.*_hound.*step",
         do_not_disable_by_default = true,
         group_name = "mod_option_group_dog",
