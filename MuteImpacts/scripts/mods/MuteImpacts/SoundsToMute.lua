@@ -199,6 +199,7 @@ local sounds_to_toggle = {
     },
 	-- --------------------------
     -- Lasbeam Crack
+    -- and other nearby shots (I'm keeping the name for legacy setting conservation)
 	-- --------------------------
     {
         internal_id = "lasbeam_crack_player",
@@ -213,6 +214,19 @@ local sounds_to_toggle = {
     {
         internal_id = "lasbeam_crack_enemy",
         sound_event = "wwise/events/weapon/play_weapon_lasgun_crack_beam_nearby_husk",
+        group_name = "mod_option_group_lasbeam_crack",
+    },
+    {
+        internal_id = "bolter_flyby",
+        sound_event = "wwise/events/weapon/play_shared_combat_weapon_bolter_bullet_flyby",
+        do_not_disable_by_default = true,
+        group_name = "mod_option_group_lasbeam_crack",
+    },
+    -- Also used by skitarii weapons
+    {
+        internal_id = "plasma_flyby",
+        sound_event = "wwise/events/weapon/play_shared_combat_weapon_plasma_flyby",
+        do_not_disable_by_default = true,
         group_name = "mod_option_group_lasbeam_crack",
     },
 	-- --------------------------

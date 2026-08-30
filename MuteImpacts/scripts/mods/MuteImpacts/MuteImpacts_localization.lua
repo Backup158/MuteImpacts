@@ -47,7 +47,7 @@ local localizations = {
 		en = "Hounds",
 	},
 	mod_option_group_lasbeam_crack = {
-		en = "Lasbeam Crack",
+		en = "Nearby Shot Crack",
 	},
 	mod_option_group_electrocution = {
 		en = "Electrocution",
@@ -167,6 +167,7 @@ local localizations = {
 	},
 	-- -------------
     -- Lasgun Shots
+	-- Nearby Attack (leaving name for legacy settings)
 	-- -------------
 	lasbeam_crack_player = {
 		en = "Lasbeam Crack (Player)",
@@ -176,6 +177,12 @@ local localizations = {
 	},
 	lasbeam_crack_enemy = {
 		en = "Lasbeam Crack (Other Scab Enemies)",
+	},
+	bolter_flyby = {
+		en = "Bolter Flyby",
+	},
+	plasma_flyby = {
+		en = "Plasma Flyby (Shared with Skitarii Weapons)",
 	},
 	-- -------------
     -- Lightning Attacks

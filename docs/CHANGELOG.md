@@ -1,6 +1,5 @@
 # 1.9.0 - 2026-08-30
 ## Added
-- nearby bolter and stubber shots?
 - Hound subgroup
     - Arbites dog footstep [*]
     - Arbites dog scuff [*]
@@ -12,6 +11,8 @@
     - Enemy hound footstep [*]
     - Enemy hound wave stinger [*]
     - Enemy hound group [*]
+- Bolter shot flyby [*]
+- Plasma shot flyby [*]
 
 # 1.8.0 - 2026-08-29
 - Added new sounds

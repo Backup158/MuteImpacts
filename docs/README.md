@@ -3,44 +3,50 @@ Uses the Simple Audio or the Audio plugin to mute the listed sounds.
 
 # Sound Options
 Most sounds are silenced by default, and can be unsilenced in the Mod Options. Ones left alone by default are marked with a [*]
-- Psyker - Force Staff
-    - Primary Fire - Impact
-    - Primary Fire - Initial Woosh [*]
-    - Primary Fire - Projectile trail fizz [*]
-    - Voidstrike/Voidblast Staff alt fire blast [*]
-    - Inferno Staff shared burn [*]
-    - Inferno Staff left click stop [*]
-    - Inferno Staff right click additional [*]
-- Psyker (Other)
-    - Warp Peril - Warning (50%) [*]
-    - Warp Peril - Critical (97%) [*]
-    - Force Sword Block and Brain Burst buzzing
-- Skitarii
-    - Servo Skull charge up [*]
-    - Servo Skull shoot [*]
-    - Ability discharge bzzt [*]
-    - Voltaic Emitter buzzing after using 2+ charges (Start and stop) [*]
-- Cracking from lasguns shooting nearby (with options for player and enemy shots)
-- Arbites Shock Maul swing effects
-    - Shocking hit
-    - Electric swing trail sound when hitting nothing
-- Melee hits
-    - Doing no damage against Carapace
-    - Hitting a Bulwark Shield
-    - Hitting Carapace or Flak with various weapon types
-    - Reduced damage with axe hits (Axes and Shovels)
-    - Axe light attacks [*]
-    - Axe heavy attacks [*]
-- Ranged hits (each have options for Lasers and general shots)
-    - Damage negated
-    - Armored
-    - Unarmored [*]
-- UI sounds
-    - Entering NPC menu
-    - Hadron trait edits
-    - Hadron blessing edits
-    - Hadron Consecration
-    - Hadron Empowerment
+## Psyker - Force Staff
+- Primary Fire - Impact
+- Primary Fire - Initial Woosh [*]
+- Primary Fire - Projectile trail fizz [*]
+- Voidstrike/Voidblast Staff alt fire blast [*]
+- Inferno Staff shared burn [*]
+- Inferno Staff left click stop [*]
+- Inferno Staff right click additional [*]
+## Psyker (Other)
+- Warp Peril - Warning (50%) [*]
+- Warp Peril - Critical (97%) [*]
+- Force Sword Block and Brain Burst buzzing
+## Skitarii
+- Servo Skull charge up [*]
+- Servo Skull shoot [*]
+- Ability discharge bzzt [*]
+- Voltaic Emitter buzzing after using 2+ charges (Start and stop) [*]
+## Nearby Ranged Shots
+- Nearby Lasgun Shot Crack (Player)
+- Nearby Lasgun Shot Crack (Enemy Shooters)
+- Nearby Lasgun Shot Crack (Enemy Captain)
+- Bolter Flyby [*]
+- Plasma Flyby (Shared with Skitarii Weapons) [*]
+## Arbites Shock Maul swing effects
+- Shocking hit
+- Electric swing trail sound when hitting nothing
+## Melee hits
+- Doing no damage against Carapace
+- Hitting a Bulwark Shield
+- Hitting Carapace or Flak with various weapon types
+- Reduced damage with axe hits (Axes and Shovels)
+- Axe light attacks [*]
+- Axe heavy attacks [*]
+## Ranged hits (each have options for Lasers and general shots)
+- Damage negated
+- Armored
+- Unarmored [*]
+## UI sounds
+- Entering NPC menu
+- Hadron trait edits
+- Hadron blessing edits
+- Hadron Consecration
+- Hadron Empowerment
+## Player Voice
 - Player coughing from Pox Gas
 
 # Load Order
