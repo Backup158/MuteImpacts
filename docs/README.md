@@ -18,7 +18,7 @@ Most sounds are silenced by default, and can be unsilenced in the Mod Options. O
 ## Skitarii
 - Servo Skull charge up [*]
 - Servo Skull shoot [*]
-- Ability discharge bzzt [*]
+- Ability Discharge bzzt [*]
 - Voltaic Emitter buzzing after using 2+ charges (Start and stop) [*]
 ## Nearby Ranged Shots
 - Nearby Lasgun Shot Crack (Player)
@@ -26,21 +26,19 @@ Most sounds are silenced by default, and can be unsilenced in the Mod Options. O
 - Nearby Lasgun Shot Crack (Enemy Captain)
 - Bolter Flyby [*]
 - Plasma Flyby (Shared with Skitarii Weapons) [*]
-## Arbites Shock Maul swing effects
-- Shocking hit
-- Electric swing trail sound when hitting nothing
-## Melee hits
+## Electrocution
+- Lightning hit and miss
+## Shock Maul Swing effects
+- Arbites Shock Maul Electric Swing on Miss
+- Arbites Shock Maul Shocking Hit
+## Melee Hits
 - Doing no damage against Carapace
 - Hitting a Bulwark Shield
 - Hitting Carapace or Flak with various weapon types
 - Reduced damage with axe hits (Axes and Shovels)
 - Axe light attacks [*]
 - Axe heavy attacks [*]
-## Ranged hits (each have options for Lasers and general shots)
-- Damage negated
-- Armored
-- Unarmored [*]
-## UI sounds
+## NPC UI sounds
 - Entering NPC menu
 - Hadron trait edits
 - Hadron blessing edits
@@ -48,6 +46,10 @@ Most sounds are silenced by default, and can be unsilenced in the Mod Options. O
 - Hadron Empowerment
 ## Player Voice
 - Player coughing from Pox Gas
+## Ranged Hits (each have options for Lasers and general shots)
+- Damage negated
+- Armored
+- Unarmored [*]
 
 # Load Order
 If using Audio
