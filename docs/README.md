@@ -31,13 +31,6 @@ Most sounds are silenced by default, and can be unsilenced in the Mod Options. S
 ## Shock Maul Swing Effects
 - Arbites Shock Maul Electric Swing on Miss
 - Arbites Shock Maul Shocking Hit
-## Melee Hits
-- Doing no damage against Carapace
-- Hitting a Bulwark Shield
-- Hitting Carapace or Flak with various weapon types
-- Reduced damage with axe hits (Axes and Shovels)
-- Axe light attacks [*]
-- Axe heavy attacks [*]
 ## NPC UI
 - Entering NPC menu
 - Hadron trait edits
@@ -46,10 +39,19 @@ Most sounds are silenced by default, and can be unsilenced in the Mod Options. S
 - Hadron Empowerment
 ## Player Voice
 - Player coughing from Pox Gas
+## Melee Hits
+- Doing no damage against Carapace
+- Hitting a Bulwark Shield
+- Hitting Carapace or Flak with various weapon types
+- Reduced damage with axe hits (Axes and Shovels)
+- Axe light attacks [*]
+- Axe heavy attacks [*]
 ## Ranged Hits (each have options for Lasers and general shots)
 - Damage negated
 - Armored
 - Unarmored [*]
+## Misc
+- EVERYTHING [*]
 
 # Load Order
 If using Audio

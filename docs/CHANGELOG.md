@@ -13,6 +13,7 @@
     - Enemy hound group [*]
 - Bolter shot flyby [*]
 - Plasma shot flyby [*]
+- Everything [*]
 
 # 1.8.0 - 2026-08-29
 - Added new sounds

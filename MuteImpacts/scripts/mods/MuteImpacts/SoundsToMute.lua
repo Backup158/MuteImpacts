@@ -441,6 +441,16 @@ local sounds_to_toggle = {
         do_not_disable_by_default = true,
         group_name = "mod_option_group_ranged_hits",
     },
+	-- --------------------------
+    -- Misc
+	-- --------------------------
+    -- EVERYTHING
+    {
+        internal_id = "anything_and_everything",
+        sound_event = "wwise/events/.*",
+        do_not_disable_by_default = true,
+        group_name = "mod_option_group_misc",
+    },
 }
 
 mod.sounds_to_toggle = sounds_to_toggle

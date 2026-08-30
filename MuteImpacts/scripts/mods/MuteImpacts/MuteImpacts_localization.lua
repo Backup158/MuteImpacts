@@ -229,10 +229,16 @@ local localizations = {
 		en = string_format("%s: %s", Localize("loc_hub_interaction_crafting"), Localize("loc_expertise_crafting_title")),
 	},
 	-- -------------
-    -- Cough
+    -- Player Voice
 	-- -------------
 	player_gas_cough = {
 		en = "Coughing from Pox Gas",
+	},
+	-- -------------
+    -- Misc
+	-- -------------
+	anything_and_everything = {
+		en = "EVERYTHING!!!!!! (literally all wwise events)",
 	},
 }
 
