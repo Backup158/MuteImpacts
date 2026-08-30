@@ -173,6 +173,12 @@ local sounds_to_toggle = {
         do_not_disable_by_default = true,
         group_name = "mod_option_group_dog",
     },
+	{
+        internal_id = "enemy_hound_footstep",
+        sound_event = "wwise/events/minions/play_.*_hound.*step",
+        do_not_disable_by_default = true,
+        group_name = "mod_option_group_dog",
+    },
 	-- --------------------------
     -- Lasbeam Crack
 	-- --------------------------

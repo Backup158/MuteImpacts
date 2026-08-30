@@ -153,6 +153,9 @@ local localizations = {
 	enemy_hound_bark = {
 		en = "Enemy Hound Barks",
 	},
+	enemy_hound_footstep = {
+		en = "Enemy Hound Footsteps",
+	},
 	-- -------------
     -- Lasgun Shots
 	-- -------------

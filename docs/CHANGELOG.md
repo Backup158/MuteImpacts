@@ -9,6 +9,7 @@
     - Arbites dog bite [*]
     - Enemy hound breaths [*]
     - Enemy hound barks [*]
+    - Enemy hound footstep [*]
 
 # 1.8.0 - 2026-08-29
 - Added new sounds
