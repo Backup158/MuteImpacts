@@ -28,5 +28,6 @@ jobs:
           filename: MuteImpacts_SOS.zip
           display_name: "MuteImpacts - Silence Obnoxious Sounds (SOS)"
           description: "https://backup158.github.io/MuteImpacts/CHANGELOG"
+          changelog: "https://backup158.github.io/MuteImpacts/CHANGELOG"
           version: ${{ github.event.release.tag_name || github.event.inputs.version }}
           update_mod_version: true
