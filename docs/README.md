@@ -55,6 +55,8 @@ Most sounds are silenced by default, and can be unsilenced in the Mod Options. S
 ## Misc
 - EVERYTHING [*]
 
+Mod options are validated by the mod upon game start and closing the Mod Options menu. There are certain cases when combinations of settings can cause issues, which can be unintuitive to check.
+
 # Load Order
 If using Audio
 > **DarktideLocalServer**  \

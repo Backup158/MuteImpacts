@@ -1,6 +1,10 @@
 # 1.11.0 - 2026-09-01
 ## Added
-- Warnings enabled option
+- Warnings enabled options
+    - These will validate your mod settings on startup and after closing the Mod Options menu
+    - Some settings have unintuitive interactions for technical reasons
+    - These settings will alert you when that happens
+    - Each known case will have its own checkbox
 - Warning for Integrated Refraction Shield Settings
 ## Fixed
 - Refractor Shield play not muting
