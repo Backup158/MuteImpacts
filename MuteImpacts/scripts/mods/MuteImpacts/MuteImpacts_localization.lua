@@ -258,6 +258,9 @@ local localizations = {
 	-- -------------
     -- Misc
 	-- -------------
+	ui_click = {
+		en = "UI Click",
+	},
 	anything_and_everything = {
 		en = "EVERYTHING!!!!!! (literally all wwise events)",
 	},

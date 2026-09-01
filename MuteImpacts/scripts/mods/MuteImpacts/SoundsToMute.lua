@@ -460,6 +460,13 @@ local sounds_to_toggle = {
 	-- --------------------------
     -- Misc
 	-- --------------------------
+    -- UI click
+    {
+        internal_id = "ui_click",
+        sound_event = "wwise/events/ui/play_ui_click$",
+        do_not_disable_by_default = true,
+        group_name = "mod_option_group_misc",
+    },
     -- EVERYTHING
     {
         internal_id = "anything_and_everything",

@@ -52,7 +52,8 @@ Most sounds are silenced by default, and can be unsilenced in the Mod Options. S
 - Damage negated
 - Armored
 - Unarmored [*]
-## Misc
+## Miscellaneous
+- UI Click [*]
 - EVERYTHING [*]
 
 Mod options are validated by the mod upon game start and closing the Mod Options menu. There are certain cases when combinations of settings can cause issues, which can be unintuitive to check.

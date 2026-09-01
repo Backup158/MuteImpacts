@@ -6,6 +6,8 @@
     - These settings will alert you when that happens
     - Each known case will have its own checkbox
 - Warning for Integrated Refraction Shield Settings
+- Muted Sounds
+    - Miscellaneous - UI Click [*]
 ## Fixed
 - Refractor Shield play not muting
 - Refractor Shield infinite loop bug
