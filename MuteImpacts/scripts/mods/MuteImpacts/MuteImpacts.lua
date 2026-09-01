@@ -39,8 +39,8 @@ mod.validate_mod_settings = function()
     -- Integrated Refraction Shield
     --  If muting end, must also mute start
     --  Otherwise, active loops endlessly
-    local muted_starting_sound = mod:get("skitussy_voltaic_loop_start")
-    local muted_ending_sound = mod:get("skitussy_voltaic_loop_stop")
+    local muted_starting_sound = mod:get("skitussy_bubble_wrap_start")
+    local muted_ending_sound = mod:get("skitussy_bubble_wrap_stop")
     if muted_ending_sound and (not muted_starting_sound) then
         mod.show_error_log_if_disabled("skitussy_bubble_wrap")
     end
