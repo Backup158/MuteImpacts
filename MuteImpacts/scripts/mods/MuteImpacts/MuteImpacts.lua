@@ -3,7 +3,7 @@ local mod = get_mod("MuteImpacts")
 -- ###################################################################
 -- DATA
 -- ###################################################################
-mod.version = "1.10.1"
+mod.version = "1.11.0"
 mod:info("v"..mod.version.." loaded uwu nya :3")
 
 local audio_framework_to_use
@@ -22,6 +22,30 @@ local sound_lookup_copy = mod.sound_lookup_copy
 -- ###################################################################
 -- MOD LOGIC
 -- ###################################################################
+-- Shows error if user allows error to be shown
+-- Logs error otherwise
+-- This lets me know if they screwed themselves over
+mod.show_error_log_if_disabled = function(event_name)
+    local warning = mod:localize("warning_"..event_name)
+    if mod:get("show_warning_"..event_name) then
+        mod:error(warning)
+    else 
+        mod:info(warning)
+    end
+end
+
+-- Checks mod options and highlights incompatibilities
+mod.validate_mod_settings = function()
+    -- Integrated Refraction Shield
+    --  If muting end, must also mute start
+    --  Otherwise, active loops endlessly
+    local muted_starting_sound = mod:get("skitussy_voltaic_loop_start")
+    local muted_ending_sound = mod:get("skitussy_voltaic_loop_stop")
+    if muted_ending_sound and (not muted_starting_sound) then
+        mod.show_error_log_if_disabled("skitussy_bubble_wrap")
+    end
+end
+
 mod.on_all_mods_loaded = function()
     audio_plugin = get_mod("Audio")
     simple_audio = get_mod("SimpleAudio")
@@ -53,3 +77,10 @@ mod.on_setting_changed = function(setting_id)
         end
     end
 end
+
+-- On closing the Mod Options menu, check for incompatible settings and display warnings if so
+mod:hook_safe(CLASS.UIViewHandler, "close_view", function(self, view_name, ...)
+	if view_name == "dmf_options_view" or view_name == "options_view" then
+		mod.validate_mod_settings()
+	end
+end)

@@ -1,4 +1,7 @@
-# 1.10.1 - 2026-09-01
+# 1.11.0 - 2026-09-01
+## Added
+- Warnings enabled option
+- Warning for Integrated Refraction Shield Settings
 ## Fixed
 - Refractor Shield play not muting
 - Refractor Shield infinite loop bug

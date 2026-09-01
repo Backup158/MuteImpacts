@@ -20,8 +20,23 @@ local sounds_to_toggle = mod.sounds_to_toggle
 -- This unfortunately makes it awkward to pre-declare the table size
 local final_widgets = Script.new_map( #sounds_to_toggle / 2 ) -- will have empty widgets at the end, but DMF ignores thoses
 local widget_group_name_map = {}
-local final_widgets_iterator = 1
+local final_widgets_iterator = 1 -- Keep this at one. Iterate elsewhere for clarity
 
+-- Staring with a "General Settings tab"
+final_widgets[final_widgets_iterator] = {
+	setting_id = "mod_option_group_mod_settings",
+	type = "group",
+	sub_widgets = {
+		{
+			setting_id = "show_warning_skitussy_bubble_wrap",
+			type = "checkbox",
+			default_value = true,
+		}
+	},
+}
+final_widgets_iterator = final_widgets_iterator + 1
+
+-- Adding settings for toggling sounds
 for i = 1, #sounds_to_toggle do 
 	local setting_table = sounds_to_toggle[i]
 	local current_group_name = setting_table.group_name

@@ -31,6 +31,21 @@ local localizations = {
 	mod_option_tooltip_sound_event_prefix = {
 		en = "Sound event: ",
 	},
+	mod_option_group_mod_settings = {
+		en = "Mod Settings",
+	},
+	mod_option_group_mod_settings_description = {
+		en = "This section doesn't mute any sounds.",
+	},
+	show_warning_skitussy_bubble_wrap = {
+		en = string_format("Show warning when using incompatible options for %s", Localize("loc_talent_cryptic_grenade_ability_force_field")),
+	},
+	show_warning_skitussy_bubble_wrap_description = {
+		en = "When the stopping sound is muted but the starting sound isn't, the active sound will play endlessly.",
+	},
+	warning_skitussy_bubble_wrap = {
+		en = string_format("%s: Stopping sound is muted but starting sound isn't. This will cause the starting sound to play endlessly!", Localize("loc_talent_cryptic_grenade_ability_force_field")),
+	},
 	-- -------------------------
 	-- Widget Tab Names
 	-- -------------------------
@@ -133,7 +148,7 @@ local localizations = {
 		en = string_format("%s - Start and Active", Localize("loc_talent_cryptic_grenade_ability_force_field")),
 	},
 	skitussy_bubble_wrap_stop = {
-		en = string_format("%s - Stop\nIf you disable this, you MUST disable the starting sound too!", Localize("loc_talent_cryptic_grenade_ability_force_field")),
+		en = string_format("%s - Stop", Localize("loc_talent_cryptic_grenade_ability_force_field")),
 	},
 	-- -------------
     -- Hound
