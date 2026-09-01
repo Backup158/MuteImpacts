@@ -63,6 +63,8 @@ mod.on_all_mods_loaded = function()
             audio_framework_to_use.silence_sounds(sound_event)
         end
     end
+
+    mod.validate_mod_settings()
 end
 
 mod.on_setting_changed = function(setting_id)
