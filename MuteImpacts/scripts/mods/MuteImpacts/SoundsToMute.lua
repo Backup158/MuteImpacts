@@ -129,9 +129,12 @@ local sounds_to_toggle = {
         group_name = "mod_option_group_skitussy",
     },
     -- Integrated Refractor Field
+    --  Gets play and stop
+    --  If you only turn off the stop, it'll play endlessly even after ending, until it hears the actual stop event
+    --  If you only turn off the play, it'll just play the stop sound
 	{
         internal_id = "skitussy_bubble_wrap_start",
-        sound_event = "wwise/events/player/start_ability_active_cryptic_forcefield",
+        sound_event = "wwise/events/player/play_ability_active_cryptic_forcefield",
         do_not_disable_by_default = true,
         group_name = "mod_option_group_skitussy",
     },

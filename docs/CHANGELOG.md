@@ -1,3 +1,12 @@
+# 1.10.1 - 2026-09-01
+## Fixed
+- Refractor Shield play not muting
+- Refractor Shield infinite loop bug
+    - Directly because of the first
+    - "Play" consists of two parts: the intial *vwoooop* and then the *kkkrzzzt* all the way through
+    - The active buzzing plays until the "stop" event occurs
+    - By muting the stop event but allowing the start to play, the "active" part never ends until restart or you unmute Stop and let it stop
+
 # 1.10.0 - 2026-08-30
 ## Added
 - Skitarii
