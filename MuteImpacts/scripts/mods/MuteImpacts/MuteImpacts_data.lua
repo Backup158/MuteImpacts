@@ -31,7 +31,7 @@ final_widgets[final_widgets_iterator] = {
 			setting_id = "show_warning_skitussy_bubble_wrap",
 			type = "checkbox",
 			default_value = true,
-		}
+		},
 	},
 }
 final_widgets_iterator = final_widgets_iterator + 1
